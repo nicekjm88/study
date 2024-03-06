@@ -9,36 +9,6 @@ gsap.registerPlugin(ScrollTrigger);
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  anime({
-    targets: '.line',
-    strokeDasharray: [anime.setDashoffset, anime.setDashoffset],
-    easing: 'easeInOutSine',
-    duration: 50000,
-    delay: 0,
-    direction: 'alternate',
-    loop: true,
-    update: function (animation) {
-      animation.animatables.forEach(function (animatable) {
-        animatable.target.setAttribute('stroke-dashoffset', animatable.target.getTotalLength() - animation.progress * animatable.target.getTotalLength());
-      });
-    }
-  });
-
-  anime({
-    targets: '.polyline',
-    strokeDasharray: [anime.setDashoffset, anime.setDashoffset],
-    easing: 'easeInOutSine',
-    duration: 50000,
-    delay: 25000, // line 애니메이션의 반복이 끝나고 시작
-    direction: 'alternate',
-    loop: true,
-    update: function (animation) {
-      animation.animatables.forEach(function (animatable) {
-        animatable.target.setAttribute('stroke-dashoffset', animatable.target.getTotalLength() - animation.progress * animatable.target.getTotalLength());
-      });
-    }
-  });
-
   animateCircle('.circle1', anime.setDashoffset, 0);
   animateCircle('.circle2', 0, anime.setDashoffset);
 
