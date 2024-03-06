@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "animejs": "^3.2.2",
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "gsap": "^3.12.5"
   }
 }

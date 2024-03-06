@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <style>
+    .scroll-area {
+      background-color: #000;
+      height: 7000px;
+      position: relative;
+    }
+
+    .star {
+      width: 100px;
+      height: 100px;
+      background: yellow;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+    }
+
+    .space {
+      height: 2000px;
+    }
+
+    .fullpage-image {
+      height: 100vh;
+      /* 뷰포트 높이만큼의 전체 높이 설정 */
+      overflow: hidden;
+      position: relative;
+    }
+
+    .fullpage-image img {
+      position: absolute;
+      top: 50%;
+      right: 50%;
+      transform: translate(50%, -50%);
+    }
+    .fade-in-title {
+      opacity: 0.5; /* 초기 투명도 설정 */
+      transition: opacity 0.3s ease-in-out; /* 부드러운 투명도 변화를 위한 트랜지션 */
+      color: #fff;
+      text-align: left;
+      width: 75%;
+      margin: 0 auto;
+    }
+    .fade-in-title h2 {
+      font-size: 60px;
+    }
+    .fade-in-title p {
+      font-size: 30px;
+      color: rgb(134,134,139);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="scroll-area">
+    <div class="space"></div>
+    <div class="fade-in-title">
+      <h2>상상 이상의 디테일까지 포착해 주는 카메라.</h2>
+      <p>비약적으로 유연해진 프레임 옵션부터 한 차원 높은 수준의 인물 사진까지, iPhone 사상 가장 강력한 카메라 시스템이 만들어내는 놀라운 이미지를 소개합니다.</p>
+    </div>    
+    <div class="fullpage-image">
+      <img src="./static/images/img.jpg" alt="">
+    </div>
+  </div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
