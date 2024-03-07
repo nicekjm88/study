@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
       end: "bottom top", // 스크롤 끝 지점
       scrub: true, // 스크롤 동작에 따라 애니메이션 진행
       pin: true, // 스크롤 동안 섹션 고정
-      markers: true, // 디버깅을 위한 시작/끝 마커 활성화
+      // markers: true, // 디버깅을 위한 시작/끝 마커 활성화
     }
   });
 
