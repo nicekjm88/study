@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
       scrub: true,
       pin: true,
       anticipatePin: 1,
+      // markers: true,
     }
   })
     .from(".section_1_01", { y: -100, x: -150, ease: "power3.inOut", duration: 4 })
@@ -24,17 +25,17 @@ document.addEventListener('DOMContentLoaded', () => {
     .from(".section_1_08", { y: 50, x: -350, ease: "power3.inOut", duration: 4 }, '-=4')
     .from(".section_1_09", { y: 100, x: -200, ease: "power3.inOut", duration: 4 }, '-=4');
 
-    let t2 = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".second-section",
-        start: "top top",
-        end: "bottom",
-        scrub: true,
-        markers: true,
-      }
-    });
-    
-    t2.to(".top .image-container", {
+  gsap.timeline({
+    scrollTrigger: {
+      trigger: ".second-section",
+      start: "top top",
+      end: "bottom",
+      scrub: true,
+      pin: true,
+      // markers: true,
+    }
+  })
+    .from(".top .image-container", {
       height: 0,
       duration: 4
     })
@@ -56,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  const t4 = gsap.timeline({
+  gsap.timeline({
     scrollTrigger: {
       trigger: ".forth-section",
       start: "top -=200",
@@ -65,12 +66,9 @@ document.addEventListener('DOMContentLoaded', () => {
       pin: true,
       // markers: true,
     }
-  });
-
-  t4
+  })
     .to('.section_4_01', { duration: 4, autoAlpha: 0 })
     .from('.section_4_02', { duration: 4, autoAlpha: 0 }, '-=4')
     .from('.section_4_03', { duration: 4, autoAlpha: 0 })
     .from('.section_4_04', { duration: 4, autoAlpha: 0 });
-
 });
