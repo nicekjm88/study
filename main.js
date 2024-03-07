@@ -39,6 +39,5 @@ document.addEventListener('DOMContentLoaded', () => {
       // markers: true, // 디버깅을 위한 시작/끝 마커 활성화
     }
   });
-
 });
 
