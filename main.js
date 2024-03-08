@@ -1,4 +1,5 @@
 import anime from 'animejs'
+import * as bootstrap from 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { ModalManager } from './src/modules/modalManagerModule';
 import { animateCircle } from './src/modules/circleAnimation.js';
@@ -39,5 +40,57 @@ document.addEventListener('DOMContentLoaded', () => {
       // markers: true, // 디버깅을 위한 시작/끝 마커 활성화
     }
   });
+
+  let container = document.querySelector('.scroll-container');
+
+  // 전체 컨테이너의 너비를 계산합니다.
+  let totalWidth = 0;
+  document.querySelectorAll(".panel").forEach(panel => {
+      totalWidth += panel.offsetWidth;
+  });
+  container.style.width = `${totalWidth}px`;
+
+  // GSAP & ScrollTrigger로 수평 스크롤 애니메이션 생성
+  gsap.to(container, {
+      x: () => -(totalWidth - window.innerWidth),
+      ease: "none",
+      scrollTrigger: {
+        trigger: container,
+        pin: true,
+        scrub: 1,
+        end: () => `+=${totalWidth}`,
+        invalidateOnRefresh: true // 화면 크기 변경 시 재계산
+      }
+  });
+
+  const accordionItems = document.querySelectorAll('.accordion-item');
+  
+  accordionItems.forEach((item, index) => {
+    const header = item.querySelector('.accordion-header');
+    const button = header.querySelector('.accordion-button');
+    const collapseId = button.getAttribute('data-bs-target');
+    const collapseElement = document.querySelector(collapseId);
+  
+    ScrollTrigger.create({
+      trigger: item,
+      start: "top center",
+      onEnter: () => {
+        let bsCollapse = new bootstrap.Collapse(collapseElement, {
+          toggle: false
+        });
+        bsCollapse.show();
+      },
+      onLeaveBack: () => {
+        let bsCollapse = new bootstrap.Collapse(collapseElement, {
+          toggle: false
+        });
+        bsCollapse.hide();
+      },
+      // markers: true // 개발 중 위치 확인용
+    });
+  });
+  
+
+
 });
 

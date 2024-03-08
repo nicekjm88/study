@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vite App</title>
   <style>
+    body {
+      overflow-x: hidden;
+    }
     .scroll-area {
       background-color: #000;
       height: 7000px;
@@ -23,7 +26,7 @@
     }
 
     .space {
-      height: 2000px;
+      height: 500px;
     }
 
     .fullpage-image {
@@ -54,11 +57,19 @@
       font-size: 30px;
       color: rgb(134,134,139);
     }
+    .scroll-container { white-space: nowrap; font-size: 0; }
+    .panel { display: inline-block; width: 100vw; height: 100vh; }
+    .accordion-header, 
+    .accordion-button,
+    .accordion-body { 
+      min-height: 250px;      
+    }
   </style>
 </head>
 
 <body>
   <div class="scroll-area">
+    <div class="space"></div>
     <div class="space"></div>
     <div class="fade-in-title">
       <h2>상상 이상의 디테일까지 포착해 주는 카메라.</h2>
@@ -67,6 +78,60 @@
     <div class="fullpage-image">
       <img src="./static/images/img.jpg" alt="">
     </div>
+    <div class="space"></div>
+    <div class="scroll-container">
+      <!-- 예제 패널, 필요에 따라 여러 개 추가 -->
+      <div class="panel" style="background-color: #ff9999;"></div>
+      <div class="panel" style="background-color: #99ff99;"></div>
+      <div class="panel" style="background-color: #9999ff;"></div>
+    </div>
+    <div class="space"></div>
+    <div class="space"></div>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h4 class="accordion-header" id="headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            Accordion Item #1
+          </button>
+        </h4>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h4 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Accordion Item #2
+          </button>
+        </h4>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h4 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Accordion Item #3
+          </button>
+        </h4>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="space"></div>
+    <div class="space"></div>
+    <div class="space"></div>
+    <div class="space"></div>
+    <div class="space"></div>
+    <div class="space"></div>
+    
   </div>
 
   <script type="module" src="/main.js"></script>

@@ -1,0 +1,6123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    @charset "utf-8";
+    /* CSS Document */
+  
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Sans:wght@300;400;500;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500;700&display=swap');
+  
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Noto Sans KR', 'Noto Sans', sans-serif;
+      word-wrap: break-word;
+      margin: 0;
+      padding: 0;
+      letter-spacing: -2px;
+      line-height: 1.2;
+    }
+  
+    ul,
+    dl,
+    li,
+    dt,
+    dd,
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    a {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border: none;
+      margin: 0;
+      padding: 0;
+    }
+  
+    div {
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+  
+  
+    .txt300 {
+      font-weight: 300 !important;
+    }
+  
+    .txt400 {
+      font-weight: 400 !important;
+    }
+  
+    .txt700 {
+      font-weight: 700 !important;
+    }
+  
+    .cblue {
+      color: #03b6ef !important;
+    }
+  
+    .cyel {
+      color: #edba2e !important;
+    }
+  
+    .mt114 {
+      margin-top: 100px !important;
+    }
+  
+    .mt92 {
+      margin-top: 92px !important;
+    }
+  
+    .mt60 {
+      margin-top: 60px !important;
+    }
+  
+    .mt70 {
+      margin-top: 70px !important
+    }
+  
+    .mt100 {
+      margin-top: 100px !important
+    }
+  
+    .mt150 {
+      margin-top: 150px !important
+    }
+  
+    .mr29 {
+      margin-right: 29px !important;
+    }
+  
+    .pb57 {
+      padding-bottom: 57px !important;
+    }
+  
+    /* 페이지 공통 */
+    #contentBuilderContents {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .dc-Wrap {
+      width: 100%;
+      margin: 0 auto;
+      box-sizing: border-box;
+    }
+  
+  
+    /* 섹션1 포스터 */
+    .dc-depth01 {
+      width: 100%;
+      margin: 0 auto;
+      background: url("https://publish-static.atomy.com/images/products/kr/004043/bg_poster.jpg") center top no-repeat;
+      background-size: 115% auto;
+      min-height: 600px;
+      position: relative;
+      letter-spacing: 0;
+    }
+  
+    .dc-depth01 p.depth01-logo img {
+      position: absolute;
+      left: 50%;
+      margin-left: -40px;
+      top: 35px;
+      width: 80px;
+    }
+  
+    .dc-depth01 ul.topTxt {
+      width: 100%;
+      float: left;
+      text-align: center;
+      margin-top: 24.250vw;
+    }
+  
+    .dc-depth01 ul.topTxt li {
+      width: 100%;
+      float: left;
+      color: #222222;
+      font-size: 4vw;
+      font-weight: 500;
+    }
+  
+    .dc-depth01 ul.topTxt li.largeText {
+      font-size: 8.000vw;
+      color: #804d88;
+      font-weight: 700;
+      margin-top: 4.250vw;
+    }
+  
+    .dc-depth01 ul.topTxt li.slimText {
+      font-size: 4.000vw;
+      color: #222222;
+      font-weight: 100;
+      margin-top: 5.000vw;
+      letter-spacing: 0.250vw;
+    }
+  
+    .dc-depth01 .footTxt {
+      position: absolute;
+      left: 5.000vw;
+      bottom: 7.500vw;
+    }
+  
+    .dc-depth01 .footTxt p {
+      width: 150px;
+      float: left;
+    }
+  
+    .dc-depth01 .footTxt p img {
+      width: 28.250vw;
+    }
+  
+    .dc-depth01 .footTxt ul {
+      float: left;
+      margin-left: 0px;
+    }
+  
+    .dc-depth01 .footTxt li {
+      display: block;
+      color: #333333;
+      font-weight: 300;
+      font-size: 2.250vw;
+      margin-bottom: 5px;
+      font-family: 'Noto Sans KR';
+      letter-spacing: -1px;
+      text-align: left;
+    }
+  
+    .dc-depth01 .footTxt li span {
+      font-size: 2.250vw;
+      font-weight: 700;
+    }
+  
+    @media screen and (min-width: 768px) {
+      .dc-depth01 {
+        width: 768px;
+        margin: 0 auto;
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/bg_poster.jpg") center top no-repeat;
+        background-size: 100.000vw;
+        height: 141.797vw;
+        position: relative;
+      }
+  
+      .dc-depth01 p.depth01-logo img {
+        position: absolute;
+        left: 50%;
+        margin-left: -56px;
+        top: 8.854vw;
+        width: 12.760vw;
+      }
+  
+      .dc-depth01 ul.topTxt {
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin-top: 23.828vw;
+      }
+  
+      .dc-depth01 ul.topTxt li {
+        width: 100%;
+        float: left;
+        color: #222222;
+        font-size: 4.036vw;
+        font-weight: 500;
+      }
+  
+      .dc-depth01 ul.topTxt li.largeText {
+        font-size: 7.943vw;
+        color: #804d88;
+        font-weight: 700;
+        margin-top: 4.297vw;
+      }
+  
+      .dc-depth01 ul.topTxt li.slimText {
+        font-size: 3.776vw;
+        color: #222222;
+        font-weight: 100;
+        margin-top: 5.078vw;
+        letter-spacing: 1px;
+      }
+  
+      .dc-depth01 .footTxt {
+        position: absolute;
+        left: 6.510vw;
+        bottom: 5.990vw;
+      }
+  
+      .dc-depth01 .footTxt p {
+        display: inline-block;
+        width: 27.734vw;
+      }
+  
+      .dc-depth01 .footTxt p img {
+        width: 27.734vw;
+      }
+  
+      .dc-depth01 .footTxt ul {
+        display: inline-block;
+        margin-left: 1.953vw;
+      }
+  
+      .dc-depth01 .footTxt li {
+        display: block;
+        color: #333333;
+        font-weight: 300;
+        font-size: 1.953vw;
+        margin-bottom: 1.172vw;
+        font-family: 'Noto Sans KR';
+        letter-spacing: -1px;
+        text-align: left;
+      }
+  
+      .dc-depth01 .footTxt li span {
+        font-size: 2.214vw;
+        font-weight: 700;
+      }
+    }
+  
+    @media screen and (min-width: 900px) {
+      .dc-depth01 {
+        width: 900px;
+        margin: 0 auto;
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/bg_poster.jpg") center top no-repeat;
+        background-size: 900px;
+        height: 1275px;
+        position: relative;
+      }
+  
+      .dc-depth01 p.depth01-logo img {
+        position: absolute;
+        left: 50%;
+        margin-left: -56px;
+        top: 100px;
+        width: 113px;
+      }
+  
+      .dc-depth01 ul.topTxt {
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin-top: 216px;
+      }
+  
+      .dc-depth01 ul.topTxt li {
+        width: 100%;
+        float: left;
+        color: #222222;
+        font-size: 36px;
+        font-weight: 500;
+      }
+  
+      .dc-depth01 ul.topTxt li.largeText {
+        font-size: 72px;
+        color: #804d88;
+        font-weight: 700;
+        margin-top: 40px;
+      }
+  
+      .dc-depth01 ul.topTxt li.slimText {
+        font-size: 34px;
+        color: #222222;
+        font-weight: 100;
+        margin-top: 45px;
+        letter-spacing: 1px;
+      }
+  
+      .dc-depth01 .footTxt {
+        position: absolute;
+        left: 60px;
+        bottom: 52px;
+      }
+  
+      .dc-depth01 .footTxt p {
+        display: inline-block;
+        width: 251px;
+      }
+  
+      .dc-depth01 .footTxt p img {
+        width: 251px;
+      }
+  
+      .dc-depth01 .footTxt ul {
+        display: inline-block;
+        margin-left: 19px;
+      }
+  
+      .dc-depth01 .footTxt li {
+        display: block;
+        color: #333333;
+        font-weight: 300;
+        font-size: 18px;
+        margin-bottom: 11px;
+        font-family: 'Noto Sans KR';
+        letter-spacing: -1px;
+        text-align: left;
+      }
+  
+      .dc-depth01 .footTxt li span {
+        font-size: 20px;
+        font-weight: 700;
+      }
+    }
+  
+    /* 섹션2 */
+    .dc-depth02 {
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 17.500vw;
+      overflow: hidden;
+      letter-spacing: -0.5px;
+    }
+  
+    .dc-depth02 .dp2copybox ul {
+      width: 100%;
+      float: left;
+      background: url("https://publish-static.atomy.com/images/products/kr/004043/bg_section02.png") center top no-repeat;
+      background-size: 110% auto;
+      padding: 1.250vw 0;
+    }
+  
+    .dc-depth02 .dp2copybox ul li {
+      width: 100%;
+      float: left;
+      color: #804d88;
+      font-family: 'Noto Serif KR', serif;
+      font-size: 7.000vw;
+      font-weight: 700;
+      text-align: center;
+      letter-spacing: -1px;
+    }
+  
+    .dc-depth02 .dp2copybox ul li span {
+      font-weight: 300;
+      font-family: 'Noto Serif KR', serif;
+    }
+  
+    .dc-depth02 .dp2copybox ul li.smallTxt {
+      font-family: 'Noto Sans KR';
+      font-size: 4.500vw;
+      font-weight: 300;
+      margin-top: 7.500vw !important;
+      color: #333333;
+      letter-spacing: 0;
+      line-height: 130%;
+    }
+  
+    .dc-depth02 .dp2txtbox {
+      clear: both;
+      width: 100%;
+      float: left;
+      background-color: #804d88;
+      padding: 5.000vw 0;
+      color: #fff;
+      font-size: 4.500vw;
+      font-weight: 300;
+      text-align: center;
+      margin-top: 5.250vw;
+    }
+  
+    .dc-depth02 .dp2txtbox strong {
+      color: #ffffff;
+    }
+  
+    .dc-depth02 .dp2txtbox02 {
+      width: 100%;
+      float: left;
+      background: #ebeaec url("https://publish-static.atomy.com/images/products/kr/004043/bg_section02_02.png") center top no-repeat;
+      background-size: 22.500vw;
+      background-position: 50% 7.500vw;
+      padding: 31.250vw 0 22.750vw 0;
+    }
+  
+    .dc-depth02 .dp2txtbox02 ul {
+      width: 100%;
+      float: left;
+      background: none;
+      text-align: center;
+      padding: 0 5%;
+    }
+  
+    .dc-depth02 .dp2txtbox02 ul li {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .dc-depth02 .dp2txtbox02 ul li.dp2nametxt {
+      background: url("https://publish-static.atomy.com/images/products/kr/004043/img_bar.png") center top no-repeat;
+      background-size: 1px 26px;
+      padding-top: 14.250vw;
+      font-size: 4.000vw;
+      color: #804d88;
+      font-weight: 500;
+      line-height: 200%;
+      margin-top: 6.250vw;
+    }
+  
+    .dc-depth02 .dp2txtbox02 ul li.dp2nametxt span {
+      font-size: 7.500vw;
+      font-weight: 700;
+      font-family: 'Noto Sans KR';
+    }
+  
+    .dc-depth02 .dp2txtbox02 ul li.dp2nametxt02 {
+      color: #111111;
+      font-size: 4.000vw;
+      font-weight: 300;
+      font-family: 'Noto Sans KR';
+      line-height: 150%;
+      margin-bottom: 14.250vw;
+      padding-bottom: 0;
+    }
+  
+    @media screen and (min-width: 768px) {
+      .dc-depth02 {
+        width: 768px;
+        margin: 0 auto;
+        margin-top: 17.708vw;
+        overflow: hidden;
+      }
+  
+      .dc-depth02 .dp2copybox ul {
+        width: 100%;
+        float: left;
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/bg_section02.png") center top no-repeat;
+        background-size: 100.000vw;
+      }
+  
+      .dc-depth02 .dp2copybox ul li {
+        width: 100%;
+        float: left;
+        color: #804d88;
+        font-family: 'Noto Serif KR', serif;
+        font-size: 6.641vw;
+        font-weight: 700;
+        text-align: center;
+      }
+  
+      .dc-depth02 .dp2copybox ul li span {
+        font-weight: 300;
+        font-family: 'Noto Serif KR', serif;
+      }
+  
+      .dc-depth02 .dp2copybox ul li.smallTxt {
+        font-family: 'Noto Sans KR';
+        font-size: 4.427vw;
+        font-weight: 300;
+        margin-top: 7.552vw !important;
+        color: #333333;
+        line-height: 120%;
+      }
+  
+      .dc-depth02 .dp2txtbox {
+        clear: both;
+        width: 100%;
+        float: left;
+        background-color: #804d88;
+        padding: 5.208vw 0;
+        color: #fff;
+        font-size: 4.427vw;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 5.208vw;
+      }
+  
+      .dc-depth02 .dp2txtbox strong {
+        color: #ffffff;
+      }
+  
+      .dc-depth02 .dp2txtbox02 {
+        width: 100%;
+        float: left;
+        background: #ebeaec url("https://publish-static.atomy.com/images/products/kr/004043/bg_section02_02.png") center top no-repeat;
+        background-size: 22.526vw;
+        background-position: 50% 7.552vw;
+        padding: 31.380vw 0 22.786vw 0;
+      }
+  
+      .dc-depth02 .dp2txtbox02 ul {
+        width: 100%;
+        float: left;
+        background: none;
+        text-align: center;
+      }
+  
+      .dc-depth02 .dp2txtbox02 ul li {
+        width: 100%;
+        text-align: center;
+      }
+  
+      .dc-depth02 .dp2txtbox02 ul li.dp2nametxt {
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/img_bar.png") center top no-repeat;
+        padding-top: 14.453vw;
+        font-size: 4.036vw;
+        color: #804d88;
+        font-weight: 500;
+        line-height: 200%;
+        padding-bottom: 0px;
+      }
+  
+      .dc-depth02 .dp2txtbox02 ul li.dp2nametxt02 {
+        color: #111111;
+        font-size: 3.516vw;
+        font-weight: 300;
+        font-family: 'Noto Sans KR';
+        line-height: 150%;
+        margin-bottom: 6.250vw;
+        padding-bottom: 0;
+      }
+  
+      .dc-depth02 .dp2txtbox02 ul li.dp2nametxt span {
+        font-size: 7.031vw;
+        font-weight: 700;
+        font-family: 'Noto Sans KR';
+      }
+    }
+  
+    @media screen and (min-width: 900px) {
+      .dc-depth02 {
+        width: 900px;
+        margin: 0 auto;
+        margin-top: 152px;
+        overflow: hidden;
+      }
+  
+      .dc-depth02 .dp2copybox ul {
+        width: 100%;
+        float: left;
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/bg_section02.png") center top no-repeat;
+        background-size: 900px;
+        padding: 10px 0;
+      }
+  
+      .dc-depth02 .dp2copybox ul li {
+        width: 100%;
+        float: left;
+        color: #804d88;
+        font-family: 'Noto Serif KR', serif;
+        font-size: 54px;
+        font-weight: 700;
+        text-align: center;
+      }
+  
+      .dc-depth02 .dp2copybox ul li span {
+        font-weight: 300;
+        font-family: 'Noto Serif KR', serif;
+      }
+  
+      .dc-depth02 .dp2copybox ul li.smallTxt {
+        font-family: 'Noto Sans KR';
+        font-size: 35px;
+        font-weight: 300;
+        margin-top: 70px !important;
+        color: #333333;
+        line-height: 120%;
+      }
+  
+      .dc-depth02 .dp2txtbox {
+        clear: both;
+        width: 100%;
+        float: left;
+        background-color: #804d88;
+        padding: 48px 0;
+        color: #fff;
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 48px;
+      }
+  
+      .dc-depth02 .dp2txtbox strong {
+        color: #ffffff;
+      }
+  
+      .dc-depth02 .dp2txtbox02 {
+        width: 100%;
+        float: left;
+        background: #ebeaec url("https://publish-static.atomy.com/images/products/kr/004043/bg_section02_02.png") center top no-repeat;
+        background-size: 206px;
+        background-position: 50% 70px;
+        padding: 280px 0 178px 0;
+      }
+  
+      .dc-depth02 .dp2txtbox02 ul {
+        width: 100%;
+        float: left;
+        background: none;
+        text-align: center;
+      }
+  
+      .dc-depth02 .dp2txtbox02 ul li {
+        width: 100%;
+        text-align: center;
+        color: #111111;
+        font-size: 28px;
+        font-weight: 200;
+        font-family: 'Noto Sans KR';
+        line-height: 150%;
+        margin: 0;
+        padding: 0;
+      }
+  
+      .dc-depth02 .dp2txtbox02 ul li.dp2nametxt {
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/img_bar.png") center top no-repeat;
+        padding-top: 132px;
+        font-size: 35px;
+        color: #804d88;
+        font-weight: 500;
+        line-height: 200%;
+      }
+  
+      .dc-depth02 .dp2txtbox02 ul li.dp2nametxt span {
+        font-size: 64px;
+        font-weight: 700;
+        font-family: 'Noto Sans KR';
+      }
+  
+      .dc-depth02 .dp2txtbox02 ul li.dp2nametxt02 {
+        color: #111111;
+        font-size: 28px;
+        font-weight: 300;
+        font-family: 'Noto Sans KR';
+        line-height: 150%;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+      }
+  
+    }
+  
+    /* 섹션3 특별함 */
+    .dc-depth03 {
+      width: 100%;
+      margin: 0 auto;
+      overflow: hidden;
+      margin-top: 17.000vw;
+      letter-spacing: -0.5px;
+    }
+  
+    .dc-depth03 .dc-dp03title {
+      width: 100%;
+      float: left;
+      text-align: center;
+    }
+  
+    .dc-depth03 .dc-dp03title ul {
+      float: left;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .dc-depth03 .dc-dp03title ul li {
+      display: block;
+      text-align: center;
+      color: #804d88;
+      font-size: 4.000vw;
+    }
+  
+    .dc-depth03 .dc-dp03title ul li a {
+      border-bottom: 0.250vw solid #804d88;
+      color: #804d88;
+    }
+  
+    .dc-depth03 .dc-dp03title ul li span.cbk {
+      color: #333333;
+    }
+  
+    .dc-depth03 .dc-dp03title ul li.bdtxt {
+      font-size: 6.223vw;
+      font-weight: 700;
+      margin-top: 3.250vw;
+    }
+  
+    .dc-depth03 .dc-dp03listbox {
+      width: 100%;
+      float: left;
+      margin-top: 16.000vw;
+      padding: 0 5%;
+      margin-bottom: 16.750vw;
+    }
+  
+    .dc-depth03 .dc-dp03listbox .dc-dp03list-inner {
+      width: 100%;
+      padding-top: 4.250vw;
+      padding-bottom: 4.250vw;
+      float: left;
+      text-align: left;
+      margin-bottom: 2.000vw;
+    }
+  
+    .dc-depth03 .dc-dp03listbox .dc-dp03list-inner ul {
+      float: left;
+      margin-left: 15.500vw;
+    }
+  
+    .dc-depth03 .dc-dp03listbox .dc-dp03list-inner ul li {
+      display: block;
+      color: #fff;
+      font-size: 3.555vw;
+      font-weight: 200;
+      margin-bottom: 1.750vw;
+      text-align: left;
+    }
+  
+    .dc-depth03 .dc-dp03listbox .dc-dp03list-inner ul li.lgtxt {
+      font-size: 4.223vw;
+      font-weight: 700;
+    }
+  
+    .dc-depth03 .dc-dp03listbox .dc-dp03list-inner .In-unmlist {
+      border-radius: 2.500vw;
+      background-color: #fff;
+      padding: 2.000vw 3.750vw;
+      float: left;
+      margin-left: 15.500vw;
+      margin-top: 2.250vw;
+      width: 62.500vw;
+    }
+  
+    .dc-depth03 .dc-dp03listbox .dc-dp03list-inner .In-unmlist p.intitle {
+      float: left;
+      background-color: #fceffe;
+      border-radius: 0.75vw;
+      color: #804d88;
+      font-size: 3.00vw;
+      font-weight: 400;
+      height: 5.00vw;
+      line-height: 5.00vw;
+      padding-left: 2.00vw !important;
+      text-align: left;
+      width: 55.00vw;
+    }
+  
+    .dc-depth03 .dc-dp03listbox .dc-dp03list-inner .In-unmlist p.intitle02 {
+      float: left;
+      background-color: #fceffe;
+      border-radius: 0.75vw;
+      color: #804d88;
+      font-size: 3.00vw;
+      font-weight: 400;
+      height: 5.00vw;
+      line-height: 5.00vw;
+      padding-left: 2.00vw !important;
+      text-align: left;
+      width: 55.00vw;
+      margin-top: 2.00vw;
+    }
+  
+    .dc-depth03 .dc-dp03listbox .dc-dp03list-inner .In-unmlist ol {
+      float: left;
+      color: #c984bd;
+      list-style: decimal !important;
+      margin-top: 1.30vw;
+    }
+  
+    .dc-depth03 .dc-dp03listbox .dc-dp03list-inner .In-unmlist ol {
+      float: left;
+      color: #c984bd;
+      list-style: decimal !important;
+    }
+  
+    .dc-depth03 .dc-dp03listbox .dc-dp03list-inner .In-unmlist ol li {
+      font-size: 2.445vw;
+      color: #333;
+      display: block;
+      list-style: decimal !important;
+      margin-bottom: 1.250vw;
+      text-align: left;
+      letter-spacing: -1px;
+    }
+  
+    .dc-depth03 .dc-dp03listbox .dc-dp03list-inner .In-unmlist ol li:last-child {
+      margin-bottom: 0;
+    }
+  
+    .dc-depth03 .dc-dp03listbox .dc-dp03list-inner .In-unmlist ol li span {
+      color: #c984bd;
+    }
+  
+    .dc-dp03list-inner-bg01 {
+      background: #804d88 url("https://publish-static.atomy.com/images/products/kr/004043/bg_num01.png") left top no-repeat;
+      background-position: 3.000vw 4.250vw;
+      background-size: 8.000vw;
+    }
+  
+    .dc-dp03list-inner-bg02 {
+      background: #c984bd url("https://publish-static.atomy.com/images/products/kr/004043/bg_num02.png") left top no-repeat;
+      background-position: 3.000vw 4.250vw;
+      background-size: 8.000vw;
+    }
+  
+    .dc-dp03list-inner-bg03 {
+      background: #804d88 url("https://publish-static.atomy.com/images/products/kr/004043/bg_num03.png") left top no-repeat;
+      background-position: 3.000vw 4.250vw;
+      background-size: 8.000vw;
+    }
+  
+    .dc-dp03list-inner-bg04 {
+      background: #c984bd url("https://publish-static.atomy.com/images/products/kr/004043/bg_num04.png") left top no-repeat;
+      background-position: 3.000vw 4.250vw;
+      background-size: 8.000vw;
+    }
+  
+    @media screen and (min-width: 768px) {
+      .dc-depth03 {
+        width: 768px;
+        margin: 0 auto;
+        overflow: hidden;
+        margin-top: 16.927vw;
+      }
+  
+      .dc-depth03 .dc-dp03title {
+        width: 100%;
+        float: left;
+        text-align: center;
+      }
+  
+      .dc-depth03 .dc-dp03title ul {
+        float: left;
+        width: 100%;
+        text-align: center;
+      }
+  
+      .dc-depth03 .dc-dp03title ul li {
+        display: block;
+        text-align: center;
+        color: #804d88;
+        font-size: 3.906vw;
+      }
+  
+      .dc-depth03 .dc-dp03title ul li a {
+        border-bottom: 1px solid #804d88;
+        color: #804d88;
+      }
+  
+      .dc-depth03 .dc-dp03title ul li span.cbk {
+        color: #333333;
+      }
+  
+      .dc-depth03 .dc-dp03title ul li.bdtxt {
+        font-size: 6.223vw;
+        font-weight: 700;
+        margin-top: 2.865vw;
+      }
+  
+      .dc-depth03 .dc-dp03listbox {
+        width: 100%;
+        float: left;
+        margin-top: 16.016vw;
+        margin-bottom: 16.667vw;
+      }
+  
+      .dc-depth03 .dc-dp03listbox .dc-dp03list-inner {
+        width: 100%;
+        padding-top: 4.427vw;
+        padding-bottom: 2.995vw;
+        float: left;
+        margin-bottom: 2.214vw;
+        text-align: left;
+      }
+  
+      .dc-depth03 .dc-dp03listbox .dc-dp03list-inner ul {
+        float: left;
+        margin-left: 15.625vw;
+      }
+  
+      .dc-depth03 .dc-dp03listbox .dc-dp03list-inner ul li {
+        display: block;
+        color: #fff;
+        font-size: 3.516vw;
+        font-weight: 200;
+        margin-bottom: 2.214vw;
+        text-align: left;
+      }
+  
+      .dc-depth03 .dc-dp03listbox .dc-dp03list-inner ul li.lgtxt {
+        font-size: 4.167vw;
+        font-weight: 700;
+      }
+  
+      .dc-depth03 .dc-dp03listbox .dc-dp03list-inner .In-unmlist {
+        border-radius: 1.042vw;
+        background-color: #fff;
+        padding: 2.214vw 3.125vw;
+        float: left;
+        margin-left: 15.625vw;
+        margin-top: 2.214vw;
+        width: 61.979vw;
+      }
+  
+      .dc-depth03 .dc-dp03listbox .dc-dp03list-inner .In-unmlist p.intitle {
+        float: left;
+        background-color: #fceffe;
+        border-radius: 0.39vw;
+        color: #804d88;
+        font-size: 2.86vw;
+        font-weight: 400;
+        height: 4.56vw;
+        line-height: 4.56vw;
+        padding-left: 1.30vw !important;
+        text-align: left;
+        width: 55.99vw;
+      }
+  
+      .dc-depth03 .dc-dp03listbox .dc-dp03list-inner .In-unmlist p.intitle02 {
+        float: left;
+        background-color: #fceffe;
+        border-radius: 0.39vw;
+        color: #804d88;
+        font-size: 2.86vw;
+        font-weight: 400;
+        height: 4.56vw;
+        line-height: 4.56vw;
+        padding-left: 1.30vw !important;
+        text-align: left;
+        width: 55.99vw;
+        margin-top: 2.21vw;
+      }
+  
+      .dc-depth03 .dc-dp03listbox .dc-dp03list-inner .In-unmlist ol {
+        float: left;
+        color: #c984bd;
+        list-style: decimal !important;
+        margin-top: 1.30vw;
+      }
+  
+      .dc-depth03 .dc-dp03listbox .dc-dp03list-inner .In-unmlist ol li {
+        font-size: 2.474vw;
+        color: #333;
+        display: block;
+        list-style: decimal !important;
+        margin-bottom: 1.563vw;
+        text-align: left;
+      }
+  
+      .dc-depth03 .dc-dp03listbox .dc-dp03list-inner .In-unmlist ol li:last-child {
+        margin-bottom: 0;
+      }
+  
+      .dc-depth03 .dc-dp03listbox .dc-dp03list-inner .In-unmlist ol li span {
+        color: #c984bd;
+      }
+  
+      .dc-dp03list-inner-bg01 {
+        background: #804d88 url("https://publish-static.atomy.com/images/products/kr/004043/bg_num01.png") left top no-repeat;
+        background-position: 3.255vw 4.427vw;
+      }
+  
+      .dc-dp03list-inner-bg02 {
+        background: #c984bd url("https://publish-static.atomy.com/images/products/kr/004043/bg_num02.png") left top no-repeat;
+        background-position: 3.255vw 4.427vw;
+      }
+  
+      .dc-dp03list-inner-bg03 {
+        background: #804d88 url("https://publish-static.atomy.com/images/products/kr/004043/bg_num03.png") left top no-repeat;
+        background-position: 3.255vw 4.427vw;
+      }
+  
+      .dc-dp03list-inner-bg04 {
+        background: #c984bd url("https://publish-static.atomy.com/images/products/kr/004043/bg_num04.png") left top no-repeat;
+        background-position: 3.255vw 4.427vw;
+      }
+  
+    }
+  
+    @media screen and (min-width: 900px) {
+      .dc-depth03 {
+        width: 900px;
+        margin: 0 auto;
+        overflow: hidden;
+        margin-top: 150px;
+      }
+  
+      .dc-depth03 .dc-dp03title {
+        width: 900px;
+        float: left;
+        text-align: center;
+      }
+  
+      .dc-depth03 .dc-dp03title ul {
+        float: left;
+        width: 100%;
+        text-align: center;
+      }
+  
+      .dc-depth03 .dc-dp03title ul li {
+        display: block;
+        text-align: center;
+        color: #804d88;
+        font-size: 36px;
+      }
+  
+      .dc-depth03 .dc-dp03title ul li a {
+        border-bottom: 1px solid #804d88;
+        color: #804d88;
+      }
+  
+      .dc-depth03 .dc-dp03title ul li span.cbk {
+        color: #333333;
+      }
+  
+      .dc-depth03 .dc-dp03title ul li.bdtxt {
+        font-size: 56px;
+        font-weight: 700;
+        margin-top: 26px;
+      }
+  
+      .dc-depth03 .dc-dp03listbox {
+        width: 100%;
+        float: left;
+        margin-top: 145px;
+        margin-bottom: 150px;
+      }
+  
+      .dc-depth03 .dc-dp03listbox .dc-dp03list-inner {
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 27px;
+        float: left;
+        margin-bottom: 20px;
+        text-align: left;
+      }
+  
+      .dc-depth03 .dc-dp03listbox .dc-dp03list-inner ul {
+        float: left;
+        margin-left: 140px;
+      }
+  
+      .dc-depth03 .dc-dp03listbox .dc-dp03list-inner ul li {
+        display: block;
+        color: #fff;
+        font-size: 32px;
+        font-weight: 200;
+        margin-bottom: 14px;
+        text-align: left;
+      }
+  
+      .dc-depth03 .dc-dp03listbox .dc-dp03list-inner ul li.lgtxt {
+        font-size: 38px;
+        font-weight: 700;
+      }
+  
+      .dc-depth03 .dc-dp03listbox .dc-dp03list-inner .In-unmlist {
+        border-radius: 10px;
+        background-color: #fff;
+        padding: 20px 30px;
+        float: left;
+        margin-left: 140px;
+        margin-top: 10px;
+        width: 555px;
+      }
+  
+      .dc-depth03 .dc-dp03listbox .dc-dp03list-inner .In-unmlist p.intitle {
+        float: left;
+        background-color: #fceffe;
+        border-radius: 5px;
+        color: #804d88;
+        font-size: 22px;
+        font-weight: 400;
+        height: 43px;
+        line-height: 43px;
+        padding-left: 16px !important;
+        text-align: left;
+        width: 490px;
+      }
+  
+      .dc-depth03 .dc-dp03listbox .dc-dp03list-inner .In-unmlist p.intitle02 {
+        float: left;
+        background-color: #fceffe;
+        border-radius: 5px;
+        color: #804d88;
+        font-size: 22px;
+        font-weight: 400;
+        height: 43px;
+        line-height: 43px;
+        padding-left: 16px !important;
+        text-align: left;
+        width: 490px;
+        margin-top: 20px;
+      }
+  
+      .dc-depth03 .dc-dp03listbox .dc-dp03list-inner .In-unmlist ol {
+        float: left;
+        color: #c984bd;
+        list-style: decimal !important;
+        margin-top: 0;
+      }
+  
+      .dc-depth03 .dc-dp03listbox .dc-dp03list-inner .In-unmlist ol li {
+        font-size: 20px;
+        color: #333;
+        display: block;
+        list-style: decimal !important;
+        margin-bottom: 10px;
+        text-align: left;
+        margin-top: 10px;
+      }
+  
+      .dc-depth03 .dc-dp03listbox .dc-dp03list-inner .In-unmlist ol li:last-child {
+        margin-bottom: 0;
+      }
+  
+      .dc-depth03 .dc-dp03listbox .dc-dp03list-inner .In-unmlist ol li span {
+        color: #c984bd;
+      }
+  
+      .dc-dp03list-inner-bg01 {
+        background: #804d88 url("https://publish-static.atomy.com/images/products/kr/004043/bg_num01.png") left top no-repeat;
+        background-position: 29px 40px;
+      }
+  
+      .dc-dp03list-inner-bg02 {
+        background: #c984bd url("https://publish-static.atomy.com/images/products/kr/004043/bg_num02.png") left top no-repeat;
+        background-position: 29px 40px;
+      }
+  
+      .dc-dp03list-inner-bg03 {
+        background: #804d88 url("https://publish-static.atomy.com/images/products/kr/004043/bg_num03.png") left top no-repeat;
+        background-position: 29px 40px;
+      }
+  
+      .dc-dp03list-inner-bg04 {
+        background: #c984bd url("https://publish-static.atomy.com/images/products/kr/004043/bg_num04.png") left top no-repeat;
+        background-position: 29px 40px;
+      }
+  
+    }
+  
+  
+    /* 섹션4 제품정보 */
+    .dc-depth04 {
+      width: 100%;
+      margin: 0 auto;
+      clear: both;
+      letter-spacing: 0;
+    }
+  
+    .dc-depth04 .dc-dp04title {
+      width: 100%;
+      background: #804d88 url("https://publish-static.atomy.com/images/products/kr/004043/bg_dp04title.png") center bottom no-repeat;
+      background-size: 110%;
+      float: left;
+      padding: 6.250vw 0 10.000vw 0;
+    }
+  
+    .dc-depth04 .dc-dp04title p {
+      width: 100%;
+      text-align: center;
+      color: #fff;
+      font-size: 4.000vw;
+      line-height: 180%;
+    }
+  
+    .dc-depth04 .dc-dp04title p span.latxt {
+      font-size: 5.777vw;
+      font-weight: 700;
+    }
+  
+    .dc-depth04 .pd-img {
+      width: 100%;
+      float: left;
+      margin-top: 40px;
+    }
+  
+    .dc-depth04 .pd-img img {
+      width: 65.750vw;
+    }
+  
+    .dc-depth04 .pd-info-tbl {
+      width: 100%;
+      float: left;
+    }
+  
+    .dc-depth04 .pd-info-tbl table {
+      width: 100%;
+      float: left;
+      border-top: 1px solid #cccccc;
+      text-align: left;
+    }
+  
+    .dc-depth04 .pd-info-tbl table th {
+      width: 25%;
+      font-size: 3.110vw;
+      color: #111;
+      border-bottom: 1px solid #cccccc;
+      font-weight: 700;
+      padding: 1.750vw 0 1.750vw 5%;
+    }
+  
+    .dc-depth04 .pd-info-tbl table td {
+      width: 60%;
+      border-bottom: 1px solid #cccccc;
+      font-size: 3.110vw;
+      font-weight: 200;
+      padding: 1.750vw 5%;
+    }
+  
+    .dc-depth04 .pd-info-tbl table td span.bgtxt {
+      background-color: #804d88;
+      color: #fff;
+      display: inline-block;
+      padding: 0 0.500vw;
+    }
+  
+    .dc-depth04 .pd-info-tbl table td ol {
+      margin-left: 5%;
+    }
+  
+    .dc-depth04 .pd-info-tbl table td ol li {
+      list-style: circle;
+    }
+  
+    .dc-depth04 .pd-nutrient-info {
+      float: left;
+      width: 92%;
+      margin: 14.250vw 4% 16.500vw 4%;
+    }
+  
+    .dc-depth04 .pd-nutrient-info p.nutitle {
+      width: 100%;
+      float: left;
+      font-size: 5.555vw;
+      color: #111111;
+      text-align: center;
+    }
+  
+    .dc-depth04 .pd-nutrient-info table {
+      width: 100%;
+      float: left;
+      border: 0.500vw solid #804d88;
+      margin-top: 8.750vw;
+    }
+  
+    .dc-depth04 .pd-nutrient-info table th.toptitle {
+      background-color: #804d88;
+      color: #fff;
+      font-size: 3.750vw;
+      font-weight: 700;
+      padding: 2.250vw 0;
+      text-align: center;
+    }
+  
+    .dc-depth04 .pd-nutrient-info table th {
+      background-color: #f4ebf9;
+      color: #111111;
+      font-size: 3.250vw;
+      font-weight: 500;
+      border-right: 1px solid #fff;
+      text-align: center;
+      padding: 2.500vw 0;
+    }
+  
+    .dc-depth04 .pd-nutrient-info table th:last-child {
+      border-right: none;
+    }
+  
+    .dc-depth04 .pd-nutrient-info table td {
+      color: #111111;
+      font-weight: 300;
+      font-size: 3.000vw;
+      text-align: center;
+      border-bottom: 1px solid #f4ebf9;
+      border-right: 1px solid #f4ebf9;
+      padding: 2.500vw 0;
+    }
+  
+    .dc-depth04 .pd-nutrient-info table td:last-child {
+      border-right: none;
+    }
+  
+    .dc-depth04 .pd-nutrient-info .tbl-ft-text {
+      float: left;
+      width: 100%;
+      text-align: center;
+      font-size: 2.445vw;
+      color: #666666;
+      margin-top: 3.000vw;
+    }
+  
+    @media screen and (min-width: 768px) {
+      .dc-depth04 {
+        width: 768px;
+        margin: 0 auto;
+        clear: both;
+      }
+  
+      .dc-depth04 .dc-dp04title {
+        width: 100%;
+        background: #804d88 url("https://publish-static.atomy.com/images/products/kr/004043/bg_dp04title.png") center bottom no-repeat;
+        float: left;
+        padding: 50px 0 83px 0;
+      }
+  
+      .dc-depth04 .dc-dp04title p {
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        font-size: 36px;
+        line-height: 180%;
+      }
+  
+      .dc-depth04 .dc-dp04title p span.latxt {
+        font-size: 52px;
+        font-weight: 700;
+      }
+  
+      .dc-depth04 .pd-img {
+        width: 100%;
+        float: left;
+        margin-top: 40px;
+      }
+  
+      .dc-depth04 .pd-img img {
+        width: 615px;
+      }
+  
+      .dc-depth04 .pd-info-tbl {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth04 .pd-info-tbl table {
+        width: 100%;
+        float: left;
+        border-top: 1px solid #cccccc;
+        text-align: left;
+      }
+  
+      .dc-depth04 .pd-info-tbl table th {
+        width: 25%;
+        font-size: 26px;
+        color: #111;
+        border-bottom: 1px solid #cccccc;
+        font-weight: 700;
+        padding: 18px 0 18px 5%;
+      }
+  
+      .dc-depth04 .pd-info-tbl table td {
+        width: 60%;
+        border-bottom: 1px solid #cccccc;
+        font-size: 26px;
+        font-weight: 200;
+        padding: 18px 5%;
+      }
+  
+      .dc-depth04 .pd-info-tbl table td span.bgtxt {
+        background-color: #804d88;
+        color: #fff;
+        display: inline-block;
+        padding: 0 5px;
+      }
+  
+      .dc-depth04 .pd-info-tbl table td ol {
+        margin-left: 5%;
+      }
+  
+      .dc-depth04 .pd-info-tbl table td ol li {
+        list-style: circle;
+      }
+  
+      .dc-depth04 .pd-nutrient-info {
+        float: left;
+        width: 92%;
+        margin: 133px 4% 100px 4%;
+      }
+  
+      .dc-depth04 .pd-nutrient-info p.nutitle {
+        width: 100%;
+        float: left;
+        font-size: 50px;
+        color: #111111;
+        text-align: center;
+      }
+  
+      .dc-depth04 .pd-nutrient-info table {
+        width: 100%;
+        float: left;
+        border: 2px solid #804d88;
+        margin-top: 78px;
+      }
+  
+      .dc-depth04 .pd-nutrient-info table th.toptitle {
+        background-color: #804d88;
+        color: #fff;
+        font-size: 30px;
+        font-weight: 700;
+        padding: 18px 0;
+        text-align: center;
+      }
+  
+      .dc-depth04 .pd-nutrient-info table th {
+        background-color: #f4ebf9;
+        color: #111111;
+        font-size: 28px;
+        font-weight: 500;
+        border-right: 1px solid #fff;
+        text-align: center;
+        padding: 18px 0;
+      }
+  
+      .dc-depth04 .pd-nutrient-info table th:last-child {
+        border-right: none;
+      }
+  
+      .dc-depth04 .pd-nutrient-info table td {
+        color: #111111;
+        font-weight: 300;
+        font-size: 24px;
+        text-align: center;
+        border-bottom: 1px solid #f4ebf9;
+        border-right: 1px solid #f4ebf9;
+        padding: 18px 0;
+      }
+  
+      .dc-depth04 .pd-nutrient-info table td:last-child {
+        border-right: none;
+      }
+  
+      .dc-depth04 .pd-nutrient-info .tbl-ft-text {
+        float: left;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        color: #666666;
+        margin-top: 28px;
+      }
+  
+    }
+  
+    @media screen and (min-width: 900px) {
+      .dc-depth04 {
+        width: 900px;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+  
+      .dc-depth04 .dc-dp04title {
+        width: 100%;
+        background: #804d88 url("https://publish-static.atomy.com/images/products/kr/004043/bg_dp04title.png") center bottom no-repeat;
+        float: left;
+        padding: 50px 0 83px 0;
+      }
+  
+      .dc-depth04 .dc-dp04title p {
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        font-size: 36px;
+        line-height: 180%;
+      }
+  
+      .dc-depth04 .dc-dp04title p span.latxt {
+        font-size: 52px;
+        font-weight: 700;
+      }
+  
+      .dc-depth04 .pd-img {
+        width: 100%;
+        float: left;
+        margin-top: 40px;
+      }
+  
+      .dc-depth04 .pd-img img {
+        width: 615px;
+      }
+  
+      .dc-depth04 .pd-info-tbl {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth04 .pd-info-tbl table {
+        width: 100%;
+        float: left;
+        border-top: 1px solid #cccccc;
+        text-align: left;
+      }
+  
+      .dc-depth04 .pd-info-tbl table th {
+        width: 25%;
+        font-size: 28px;
+        color: #111;
+        border-bottom: 1px solid #cccccc;
+        font-weight: 700;
+        padding: 18px 0 18px 5%;
+      }
+  
+      .dc-depth04 .pd-info-tbl table td {
+        width: 60%;
+        border-bottom: 1px solid #cccccc;
+        font-size: 28px;
+        font-weight: 200;
+        padding: 18px 5%;
+      }
+  
+      .dc-depth04 .pd-info-tbl table td span.bgtxt {
+        background-color: #804d88;
+        color: #fff;
+        display: inline-block;
+        padding: 0 5px;
+      }
+  
+      .dc-depth04 .pd-info-tbl table td ol {
+        margin-left: 5%;
+      }
+  
+      .dc-depth04 .pd-info-tbl table td ol li {
+        list-style: circle;
+      }
+  
+      .dc-depth04 .pd-nutrient-info {
+        float: left;
+        width: 100%;
+        margin-top: 133px;
+      }
+  
+      .dc-depth04 .pd-nutrient-info p.nutitle {
+        width: 100%;
+        float: left;
+        font-size: 50px;
+        color: #111111;
+        text-align: center;
+      }
+  
+      .dc-depth04 .pd-nutrient-info table {
+        width: 92%;
+        float: left;
+        border: 2px solid #804d88;
+        margin: 78px 4% 0 4%;
+      }
+  
+      .dc-depth04 .pd-nutrient-info table th.toptitle {
+        background-color: #804d88;
+        color: #fff;
+        font-size: 34px;
+        font-weight: 700;
+        padding: 23px 0;
+        text-align: center;
+      }
+  
+      .dc-depth04 .pd-nutrient-info table th {
+        background-color: #f4ebf9;
+        color: #111111;
+        font-size: 30px;
+        font-weight: 500;
+        border-right: 1px solid #fff;
+        text-align: center;
+        padding: 23px 0;
+      }
+  
+      .dc-depth04 .pd-nutrient-info table th:last-child {
+        border-right: none;
+      }
+  
+      .dc-depth04 .pd-nutrient-info table td {
+        color: #111111;
+        font-weight: 300;
+        font-size: 28px;
+        text-align: center;
+        border-bottom: 1px solid #f4ebf9;
+        border-right: 1px solid #f4ebf9;
+        padding: 23px 0;
+      }
+  
+      .dc-depth04 .pd-nutrient-info table td:last-child {
+        border-right: none;
+      }
+  
+      .dc-depth04 .pd-nutrient-info .tbl-ft-text {
+        float: left;
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+        color: #666666;
+        margin-top: 28px;
+      }
+    }
+  
+    /* 섹션5 보라지종자유info*/
+    .dc-depth05 {
+      width: 100%;
+      margin: 0 auto;
+      background-color: #f4ebf9;
+      padding: 16.250vw 5%;
+      overflow: hidden;
+      letter-spacing: -0.2px;
+    }
+  
+    .dc-depth05 .dc-dp05-hdtext {
+      width: 100%;
+      float: left;
+      text-align: left;
+    }
+  
+    .dc-depth05 .dc-dp05-hdtext ul {
+      width: 100%;
+      float: left;
+    }
+  
+    .dc-depth05 .dc-dp05-hdtext ul li {
+      display: block;
+      color: #333333;
+      font-size: 3.250vw;
+      line-height: 140%;
+      letter-spacing: -1px;
+    }
+  
+    .dc-depth05 .dc-dp05-hdtext ul li.frlatxt {
+      font-size: 7.110vw;
+      font-weight: 700;
+      margin-bottom: 2.000vw;
+    }
+  
+    .dc-depth05 .dc-dp05-hdtext ul li.mdlatxt {
+      font-size: 4.445vw;
+      color: #804d88;
+      font-weight: 500;
+      margin-bottom: 2.500vw;
+    }
+  
+    .dc-depth05 .dc-dp05-infoImg {
+      width: 100%;
+      background: #fff url("https://publish-static.atomy.com/images/products/kr/004043/img_dp05.png") center top no-repeat;
+      background-position: 50% 8.750vw;
+      background-size: 72.500vw;
+      position: relative;
+      float: left;
+      margin-top: 5.000vw;
+      height: 45.500vw;
+    }
+  
+    .dc-depth05 .dc-dp05-infoImg p {
+      display: inline-block;
+      font-weight: 300;
+    }
+  
+    .dc-depth05 .dc-dp05-infoImg p.if-in-text01 {
+      position: absolute;
+      left: 7.500vw;
+      top: 28.500vw;
+      font-size: 2.750vw;
+      color: #666;
+      text-align: center;
+      line-height: 175%;
+    }
+  
+    .dc-depth05 .dc-dp05-infoImg p.if-in-text01 span {
+      background-color: #dcae20;
+      color: #fff;
+      padding: 0.750vw 1.250vw;
+    }
+  
+    .dc-depth05 .dc-dp05-infoImg p.if-in-text02 {
+      position: absolute;
+      left: 36.250vw;
+      top: 26.000vw;
+      font-size: 4.445vw;
+      color: #804d88;
+      text-align: center;
+      font-weight: 700;
+    }
+  
+    .dc-depth05 .dc-dp05-infoImg p.if-in-text03 {
+      position: absolute;
+      right: 4.000vw;
+      top: 4.000vw;
+      font-size: 2.250vw;
+      color: #fff;
+      text-align: center;
+      background-color: #b39abc;
+      width: 39.000vw;
+      padding: 1.750vw 0;
+    }
+  
+    .dc-depth05 .dc-dp05-infoImg p.if-in-text03 strong {
+      color: #ffffff;
+    }
+  
+    .dc-depth05 .dc-dp05-infoImg p.if-in-text04 {
+      position: absolute;
+      right: 11.500vw;
+      top: 28.500vw;
+      font-size: 3.555vw;
+      color: #804d88;
+      text-align: center;
+      line-height: 175%;
+      font-weight: 700;
+    }
+  
+    .dc-depth05 .dc-dp05-infoImg p.if-in-text04 span {
+      background-color: #804d88;
+      color: #fff;
+      padding: 0.750vw 1.250vw;
+      font-size: 2.750vw;
+      font-weight: 300;
+    }
+  
+    .dc-depth05 .dc-dp05-infoImg p.if-in-text05 {
+      position: absolute;
+      right: 8.000vw;
+      bottom: 2.500vw;
+      font-size: 2.000vw;
+      color: #666666;
+      text-align: center;
+      font-weight: 500;
+    }
+  
+    @media screen and (min-width: 768px) {
+      .dc-depth05 {
+        width: 768px;
+        margin: 0 auto;
+        background-color: #f4ebf9;
+        padding: 16.536vw 5.078vw;
+        overflow: hidden;
+        margin-top: 16.9271vw;
+      }
+  
+      .dc-depth05 .dc-dp05-hdtext {
+        width: 100%;
+        float: left;
+        text-align: left;
+      }
+  
+      .dc-depth05 .dc-dp05-hdtext ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth05 .dc-dp05-hdtext ul li {
+        display: block;
+        color: #333333;
+        font-size: 3.125vw;
+        line-height: 140%;
+      }
+  
+      .dc-depth05 .dc-dp05-hdtext ul li.frlatxt {
+        font-size: 6.161vw;
+        font-weight: 700;
+        margin-bottom: 3.125vw;
+      }
+  
+      .dc-depth05 .dc-dp05-hdtext ul li.mdlatxt {
+        font-size: 4.427vw;
+        color: #804d88;
+        font-weight: 500;
+        margin-bottom: 4.818vw;
+      }
+  
+      .dc-depth05 .dc-dp05-infoImg {
+        width: 100%;
+        background: #fff url("https://publish-static.atomy.com/images/products/kr/004043/img_dp05.png") center top no-repeat;
+        background-position: 50% 8.8542vw;
+        background-size: 72.3958vw;
+        position: relative;
+        float: left;
+        margin-top: 5.2083vw;
+        height: 45.4427vw;
+      }
+  
+      .dc-depth05 .dc-dp05-infoImg p {
+        display: inline-block;
+        font-weight: 300;
+      }
+  
+      .dc-depth05 .dc-dp05-infoImg p.if-in-text01 {
+        position: absolute;
+        left: 5.2083vw;
+        top: 28.5156vw;
+        font-size: 2.6042w;
+        color: #666;
+        text-align: center;
+        line-height: 175%;
+      }
+  
+      .dc-depth05 .dc-dp05-infoImg p.if-in-text01 span {
+        background-color: #dcae20;
+        color: #fff;
+        padding: 0.9115vw 1.1719vw;
+      }
+  
+      .dc-depth05 .dc-dp05-infoImg p.if-in-text02 {
+        position: absolute;
+        left: 33.7240vw;
+        top: 26.0417vw;
+        font-size: 4.4271vw;
+        color: #804d88;
+        text-align: center;
+        font-weight: 700;
+      }
+  
+      .dc-depth05 .dc-dp05-infoImg p.if-in-text03 {
+        position: absolute;
+        right: 3.9063vw;
+        top: 3.9063vw;
+        font-size: 2.2135vw;
+        color: #fff;
+        text-align: center;
+        background-color: #b39abc;
+        width: 39.0625vw;
+        padding: 2.2135vw 0;
+      }
+  
+      .dc-depth05 .dc-dp05-infoImg p.if-in-text03 strong {
+        color: #ffffff;
+      }
+  
+      .dc-depth05 .dc-dp05-infoImg p.if-in-text04 {
+        position: absolute;
+        right: 80px;
+        top: 28.5156vw;
+        font-size: 3.5156vw;
+        color: #804d88;
+        text-align: center;
+        line-height: 130%;
+        font-weight: 700;
+      }
+  
+      .dc-depth05 .dc-dp05-infoImg p.if-in-text04 span {
+        background-color: #804d88;
+        color: #fff;
+        padding: 0.9115vw 1.1719vw;
+        font-size: 2.8646vw;
+        font-weight: 300;
+      }
+  
+      .dc-depth05 .dc-dp05-infoImg p.if-in-text05 {
+        position: absolute;
+        right: 5.5990vw;
+        top: 39.8438vw;
+        font-size: 1.9531vw;
+        color: #666666;
+        text-align: center;
+      }
+    }
+  
+  
+    @media screen and (min-width: 900px) {
+      .dc-depth05 {
+        width: 900px;
+        margin: 0 auto;
+        background-color: #f4ebf9;
+        padding: 150px 45px;
+        overflow: hidden;
+        margin-top: 100px;
+      }
+  
+      .dc-depth05 .dc-dp05-hdtext {
+        width: 100%;
+        float: left;
+        text-align: left;
+      }
+  
+      .dc-depth05 .dc-dp05-hdtext ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth05 .dc-dp05-hdtext ul li {
+        display: block;
+        color: #333333;
+        font-size: 28px;
+        line-height: 140%;
+      }
+  
+      .dc-depth05 .dc-dp05-hdtext ul li.frlatxt {
+        font-size: 64px;
+        font-weight: 700;
+        margin-bottom: 15px;
+      }
+  
+      .dc-depth05 .dc-dp05-hdtext ul li.mdlatxt {
+        font-size: 40px;
+        color: #804d88;
+        font-weight: 500;
+        margin-bottom: 22px;
+      }
+  
+      .dc-depth05 .dc-dp05-infoImg {
+        width: 100%;
+        background: #fff url("https://publish-static.atomy.com/images/products/kr/004043/img_dp05.png") center top no-repeat;
+        background-position: 50% 81px;
+        position: relative;
+        float: left;
+        margin-top: 50px;
+        height: 430px;
+      }
+  
+      .dc-depth05 .dc-dp05-infoImg p {
+        display: inline-block;
+        font-weight: 300;
+      }
+  
+      .dc-depth05 .dc-dp05-infoImg p.if-in-text01 {
+        position: absolute;
+        left: 70px;
+        top: 270px;
+        font-size: 24px;
+        color: #666;
+        text-align: center;
+        line-height: 175%;
+      }
+  
+      .dc-depth05 .dc-dp05-infoImg p.if-in-text01 span {
+        background-color: #dcae20;
+        color: #fff;
+        padding: 5px 13px;
+      }
+  
+      .dc-depth05 .dc-dp05-infoImg p.if-in-text02 {
+        position: absolute;
+        left: 320px;
+        top: 236px;
+        font-size: 40px;
+        color: #804d88;
+        text-align: center;
+        font-weight: 700;
+      }
+  
+      .dc-depth05 .dc-dp05-infoImg p.if-in-text03 {
+        position: absolute;
+        right: 40px;
+        top: 30px;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        background-color: #b39abc;
+        width: 300px;
+        padding: 10px 0;
+      }
+  
+      .dc-depth05 .dc-dp05-infoImg p.if-in-text03 strong {
+        color: #ffffff;
+      }
+  
+      .dc-depth05 .dc-dp05-infoImg p.if-in-text04 {
+        position: absolute;
+        right: 105px;
+        top: 270px;
+        font-size: 32px;
+        color: #804d88;
+        text-align: center;
+        line-height: 130%;
+        font-weight: 700;
+      }
+  
+      .dc-depth05 .dc-dp05-infoImg p.if-in-text04 span {
+        background-color: #804d88;
+        color: #fff;
+        padding: 5px 13px;
+        font-size: 24px;
+        font-weight: 300;
+      }
+  
+      .dc-depth05 .dc-dp05-infoImg p.if-in-text05 {
+        position: absolute;
+        right: 52px;
+        top: 370px;
+        font-size: 18px;
+        color: #666666;
+        text-align: center;
+      }
+  
+    }
+  
+  
+    /* 섹션 6 감마리놀렌산 info*/
+    .dc-depth06 {
+      width: 100%;
+      margin: 0 auto;
+      padding: 16.250vw 5%;
+      overflow: hidden;
+      letter-spacing: -0.5px;
+    }
+  
+    .dc-depth06 .dc-dp06-hdtext {
+      width: 100%;
+      float: left;
+      text-align: left;
+    }
+  
+    .dc-depth06 .dc-dp06-hdtext ul {
+      width: 100%;
+      float: left;
+    }
+  
+    .dc-depth06 .dc-dp06-hdtext ul li {
+      display: block;
+      color: #333333;
+      font-size: 3.250vw;
+      line-height: 140%;
+    }
+  
+    .dc-depth06 .dc-dp06-hdtext ul li.frlatxt {
+      font-size: 7.110vw;
+      font-weight: 700;
+      margin-bottom: 2.000vw;
+    }
+  
+    .dc-depth06 .dc-dp06-hdtext ul li.mdlatxt {
+      font-size: 4.445vw;
+      color: #804d88;
+      font-weight: 500;
+      margin-bottom: 2.000vw;
+    }
+  
+    .dc-depth06 .dc-dp06-infoImg {
+      width: 100%;
+      float: left;
+      margin-top: 5.500vw;
+      text-align: left;
+    }
+  
+    .dc-depth06 .dc-dp06-infoImg ul {
+      width: 100%;
+      float: left;
+      background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp06.png") left top no-repeat;
+      background-size: 31.250vw;
+    }
+  
+    .dc-depth06 .dc-dp06-infoImg ul li {
+      display: block;
+      margin-left: 37.500vw;
+      font-size: 3.000vw;
+      color: #804d88;
+      height: 20.000vw;
+      line-height: 20.000vw;
+      font-weight: 300;
+      margin-bottom: 2.000vw;
+      letter-spacing: 0px;
+    }
+  
+    .dc-depth06 .dc-dp06-infoImg ul li strong {
+      color: #804d88;
+    }
+  
+    .dc-depth06 .dc-dp06-ftTxt {
+      float: left;
+      width: 100%;
+      margin-top: 5.000vw;
+      font-size: 2.250vw;
+      color: #333;
+      text-align: right;
+    }
+  
+    @media screen and (min-width: 768px) {
+      .dc-depth06 {
+        width: 768px;
+        margin: 0 auto;
+        padding: 16.536vw 5.078vw;
+        overflow: hidden;
+      }
+  
+      .dc-depth06 .dc-dp06-hdtext {
+        width: 100%;
+        float: left;
+        text-align: left;
+      }
+  
+      .dc-depth06 .dc-dp06-hdtext ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth06 .dc-dp06-hdtext ul li {
+        display: block;
+        color: #333333;
+        font-size: 3.125vw;
+        line-height: 140%;
+      }
+  
+      .dc-depth06 .dc-dp06-hdtext ul li.frlatxt {
+        font-size: 6.161vw;
+        font-weight: 700;
+        margin-bottom: 3.125vw;
+      }
+  
+      .dc-depth06 .dc-dp06-hdtext ul li.mdlatxt {
+        font-size: 4.427vw;
+        color: #804d88;
+        font-weight: 500;
+        margin-bottom: 4.818vw;
+      }
+  
+      .dc-depth06 .dc-dp06-infoImg {
+        width: 100%;
+        float: left;
+        margin-top: 5.339vw;
+        text-align: left;
+      }
+  
+      .dc-depth06 .dc-dp06-infoImg ul {
+        width: 100%;
+        float: left;
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp06.png") left top no-repeat;
+        background-size: 31.120vw;
+      }
+  
+      .dc-depth06 .dc-dp06-infoImg ul li {
+        display: block;
+        margin-left: 37.760vw;
+        font-size: 2.865vw;
+        color: #804d88;
+        height: 20.000vw;
+        line-height: 20.313vw;
+        font-weight: 300;
+        margin-bottom: 2.344vw;
+      }
+  
+      .dc-depth06 .dc-dp06-infoImg ul li strong {
+        color: #804d88;
+      }
+  
+      .dc-depth06 .dc-dp06-ftTxt {
+        float: left;
+        width: 100%;
+        margin-top: 5.208vw;
+        font-size: 2.865vw;
+        color: #333;
+        text-align: right;
+      }
+  
+    }
+  
+    @media screen and (min-width: 900px) {
+      .dc-depth06 {
+        width: 900px;
+        margin: 0 auto;
+        padding: 150px 45px;
+        overflow: hidden;
+      }
+  
+      .dc-depth06 .dc-dp06-hdtext {
+        width: 100%;
+        float: left;
+        text-align: left;
+      }
+  
+      .dc-depth06 .dc-dp06-hdtext ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth06 .dc-dp06-hdtext ul li {
+        display: block;
+        color: #333333;
+        font-size: 28px;
+        line-height: 140%;
+      }
+  
+      .dc-depth06 .dc-dp06-hdtext ul li.frlatxt {
+        font-size: 64px;
+        font-weight: 700;
+        margin-bottom: 15px;
+      }
+  
+      .dc-depth06 .dc-dp06-hdtext ul li.mdlatxt {
+        font-size: 40px;
+        color: #804d88;
+        font-weight: 500;
+        margin-bottom: 22px;
+      }
+  
+      .dc-depth06 .dc-dp06-infoImg {
+        width: 100%;
+        float: left;
+        margin-top: 49px;
+        text-align: left;
+      }
+  
+      .dc-depth06 .dc-dp06-infoImg ul {
+        width: 100%;
+        float: left;
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp06.png") left top no-repeat;
+        background-size: 280px;
+        background-position: 31px 0;
+      }
+  
+      .dc-depth06 .dc-dp06-infoImg ul li {
+        display: block;
+        margin-left: 360px;
+        font-size: 26px;
+        color: #804d88;
+        height: 184px;
+        line-height: 184px;
+        font-weight: 300;
+        margin-bottom: 20px;
+      }
+  
+      .dc-depth06 .dc-dp06-infoImg ul li strong {
+        color: #804d88;
+      }
+  
+      .dc-depth06 .dc-dp06-ftTxt {
+        float: left;
+        width: 100%;
+        margin-top: 48px;
+        font-size: 20px;
+        color: #333;
+        text-align: right;
+      }
+    }
+  
+    /* 섹션 7 보라지종자유 4가지기능성*/
+    .dc-depth07 {
+      width: 100%;
+      margin: 0 auto;
+      padding: 16.250vw 5% 11.250vw 5%;
+      background-color: #ebeaec;
+      overflow: hidden;
+      letter-spacing: -0.5px;
+    }
+  
+    .dc-depth07 .dc-dp07-hdtext {
+      width: 100%;
+      float: left;
+      text-align: left;
+    }
+  
+    .dc-depth07 .dc-dp07-hdtext ul {
+      width: 100%;
+      float: left;
+    }
+  
+    .dc-depth07 .dc-dp07-hdtext ul li {
+      display: block;
+      color: #333333;
+      font-size: 3.250vw;
+      line-height: 140%;
+    }
+  
+    .dc-depth07 .dc-dp07-hdtext ul li.frlatxt {
+      font-size: 7.110vw;
+      font-weight: 700;
+      margin-bottom: 3.000vw;
+    }
+  
+    .dc-depth07 .dc-dp07-hdtext ul li.mdlatxt {
+      font-size: 4.445vw;
+      color: #804d88;
+      font-weight: 500;
+      margin-bottom: 4.500vw;
+    }
+  
+    .dc-depth07 .dc-dp07-infoImg {
+      float: left;
+      margin-top: 5.750vw;
+      width: 100%;
+      background-color: #fff;
+      padding-top: 0;
+      padding-bottom: 4.50vw;
+    }
+  
+    .dc-depth07 .dc-dp07-infoImg p.dp07-infotitle {
+      float: left;
+      width: 100%;
+      background-color: #804d88;
+      padding-left: 5%;
+      height: 6.75vw;
+      line-height: 6.75vw;
+      color: #ffffff;
+      font-size: 4.00vw;
+      font-weight: 500;
+      text-align: left;
+    }
+  
+    .dc-depth07 .dc-dp07-infoImg ul {
+      float: left;
+      width: 100%;
+      background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp07Icons.png") left top no-repeat;
+      background-position: 8.750vw 0;
+      background-size: 20.500vw;
+      text-align: left;
+      margin-top: 3.00vw;
+    }
+  
+    .dc-depth07 .dc-dp07-infoImg ul li {
+      display: block;
+      margin-left: 33.750vw;
+      font-size: 3.000vw;
+      color: #804d88;
+      height: 20.000vw;
+      margin-bottom: 2.500vw;
+      padding-top: 7.500vw;
+      line-height: 130%;
+    }
+  
+    .dc-depth07 .dc-dp07-infoImg ul li.lhg {
+      padding-top: 5.000vw;
+    }
+  
+    .dc-depth07 .dc-dp07-infoImg ul li span {
+      color: #666666;
+      font-size: 2.250vw;
+    }
+  
+    .dc-depth07 .dc-dp07-infoImg ul li strong {
+      color: #804d88;
+    }
+  
+    .dc-depth07 .dc-dp07-infoImg02 {
+      float: left;
+      margin-top: 4.00vw;
+      width: 100%;
+      background-color: #fff;
+      padding-top: 0;
+      padding-bottom: 4.50vw;
+    }
+  
+    .dc-depth07 .dc-dp07-infoImg02 p.dp07-infotitle {
+      float: left;
+      width: 100%;
+      background-color: #804d88;
+      padding-left: 5%;
+      height: 6.75vw;
+      line-height: 6.75vw;
+      color: #ffffff;
+      font-size: 4.00vw;
+      font-weight: 500;
+      text-align: left;
+    }
+  
+    .dc-depth07 .dc-dp07-infoImg02 ul {
+      float: left;
+      width: 100%;
+      background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp07Icons02.png") left top no-repeat;
+      background-position: 8.750vw 0;
+      background-size: 20.500vw;
+      text-align: left;
+      margin-top: 3.00vw;
+    }
+  
+    .dc-depth07 .dc-dp07-infoImg02 ul li {
+      display: block;
+      margin-left: 33.750vw;
+      font-size: 3.000vw;
+      color: #804d88;
+      height: 20.000vw;
+      margin-bottom: 2.500vw;
+      padding-top: 4.75vw;
+    }
+  
+    .dc-depth07 .dc-dp07-infoImg02 ul li strong {
+      color: #804d88;
+    }
+  
+    @media screen and (min-width: 768px) {
+      .dc-depth07 {
+        width: 768px;
+        margin: 0 auto;
+        padding: 16.536vw 5.078vw 11.198vw 5.078vw;
+        background-color: #ebeaec;
+        overflow: hidden;
+      }
+  
+      .dc-depth07 .dc-dp07-hdtext {
+        width: 100%;
+        float: left;
+        text-align: left;
+      }
+  
+      .dc-depth07 .dc-dp07-hdtext ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth07 .dc-dp07-hdtext ul li {
+        display: block;
+        color: #333333;
+        font-size: 3.125vw;
+        line-height: 140%;
+      }
+  
+      .dc-depth07 .dc-dp07-hdtext ul li.frlatxt {
+        font-size: 6.161vw;
+        font-weight: 700;
+        margin-bottom: 3.125vw;
+      }
+  
+      .dc-depth07 .dc-dp07-hdtext ul li.mdlatxt {
+        font-size: 4.427vw;
+        color: #804d88;
+        font-weight: 500;
+        margin-bottom: 4.500vw;
+      }
+  
+      .dc-depth07 .dc-dp07-infoImg {
+        float: left;
+        margin-top: 5.469vw;
+        width: 100%;
+        background-color: #fff;
+        padding-top: 0;
+        padding-bottom: 4.43vw;
+      }
+  
+      .dc-depth07 .dc-dp07-infoImg p.dp07-infotitle {
+        float: left;
+        width: 95%;
+        background-color: #804d88;
+        padding-left: 5%;
+        height: 6.51vw;
+        line-height: 6.51vw;
+        color: #ffffff;
+        font-size: 3.91vw;
+        font-weight: 500;
+        text-align: left;
+      }
+  
+      .dc-depth07 .dc-dp07-infoImg ul {
+        float: left;
+        width: 100%;
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp07Icons.png") left top no-repeat;
+        background-position: 8.984vw 0;
+        background-size: 20.443vw;
+        text-align: left;
+        margin-top: 3.26vw;
+      }
+  
+      .dc-depth07 .dc-dp07-infoImg ul li {
+        display: block;
+        margin-left: 33.750vw;
+        font-size: 2.865vw;
+        color: #804d88;
+        height: 20.182vw;
+        margin-bottom: 2.214vw;
+        padding-top: 7.813vw;
+      }
+  
+      .dc-depth07 .dc-dp07-infoImg ul li.lhg {
+        padding-top: 4.818vw;
+      }
+  
+      .dc-depth07 .dc-dp07-infoImg ul li span {
+        color: #666666;
+        font-size: 2.214vw;
+      }
+  
+      .dc-depth07 .dc-dp07-infoImg ul li strong {
+        color: #804d88;
+      }
+  
+      .dc-depth07 .dc-dp07-infoImg02 {
+        float: left;
+        margin-top: 4.30vw;
+        width: 100%;
+        background-color: #fff;
+        padding-top: 0;
+        padding-bottom: 4.43vw;
+      }
+  
+      .dc-depth07 .dc-dp07-infoImg02 p.dp07-infotitle {
+        float: left;
+        width: 100%;
+        background-color: #804d88;
+        padding-left: 5%;
+        height: 6.51vw;
+        line-height: 6.51vw;
+        color: #ffffff;
+        font-size: 3.91vw;
+        font-weight: 500;
+        text-align: left;
+      }
+  
+      .dc-depth07 .dc-dp07-infoImg02 ul {
+        float: left;
+        width: 100%;
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp07Icons02.png") left top no-repeat;
+        background-position: 8.984vw 0;
+        background-size: 20.443vw;
+        text-align: left;
+        margin-top: 3.26vw;
+      }
+  
+      .dc-depth07 .dc-dp07-infoImg02 ul li {
+        display: block;
+        margin-left: 33.750vw;
+        font-size: 2.865vw;
+        color: #804d88;
+        height: 20.182vw;
+        margin-bottom: 2.214vw;
+        padding-top: 4.82vw;
+      }
+  
+      .dc-depth07 .dc-dp07-infoImg02 ul li strong {
+        color: #804d88;
+      }
+  
+    }
+  
+    @media screen and (min-width: 900px) {
+      .dc-depth07 {
+        width: 900px;
+        margin: 0 auto;
+        padding: 150px 45px 100px 45px;
+        background-color: #ebeaec;
+        overflow: hidden;
+      }
+  
+      .dc-depth07 .dc-dp07-hdtext {
+        width: 100%;
+        float: left;
+        text-align: left;
+      }
+  
+      .dc-depth07 .dc-dp07-hdtext ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth07 .dc-dp07-hdtext ul li {
+        display: block;
+        color: #333333;
+        font-size: 28px;
+        line-height: 140%;
+      }
+  
+      .dc-depth07 .dc-dp07-hdtext ul li.frlatxt {
+        font-size: 64px;
+        font-weight: 700;
+        margin-bottom: 15px;
+      }
+  
+      .dc-depth07 .dc-dp07-hdtext ul li.mdlatxt {
+        font-size: 40px;
+        color: #804d88;
+        font-weight: 500;
+        margin-bottom: 22px;
+      }
+  
+      .dc-depth07 .dc-dp07-infoImg {
+        float: left;
+        margin-top: 52px;
+        width: 100%;
+        background-color: #fff;
+        padding-top: 0;
+        padding-bottom: 40px;
+      }
+  
+      .dc-depth07 .dc-dp07-infoImg p.dp07-infotitle {
+        float: left;
+        width: 810px;
+        background-color: #804d88;
+        padding-left: 38px;
+        height: 60px;
+        line-height: 60px;
+        color: #ffffff;
+        font-size: 34px;
+        font-weight: 500;
+        text-align: left;
+      }
+  
+      .dc-depth07 .dc-dp07-infoImg ul {
+        float: left;
+        width: 100%;
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp07Icons.png") left top no-repeat;
+        background-position: 81px 0;
+        background-size: 182px;
+        text-align: left;
+        margin-top: 29px;
+      }
+  
+      .dc-depth07 .dc-dp07-infoImg ul li {
+        display: block;
+        margin-left: 306px;
+        font-size: 26px;
+        color: #804d88;
+        height: 183px;
+        margin-bottom: 22px;
+        padding-top: 70px;
+      }
+  
+      .dc-depth07 .dc-dp07-infoImg ul li.lhg {
+        padding-top: 44px;
+      }
+  
+      .dc-depth07 .dc-dp07-infoImg ul li span {
+        color: #666666;
+        font-size: 20px;
+      }
+  
+      .dc-depth07 .dc-dp07-infoImg ul li strong {
+        color: #804d88;
+      }
+  
+      .dc-depth07 .dc-dp07-infoImg02 {
+        float: left;
+        margin-top: 40px;
+        width: 100%;
+        background-color: #fff;
+        padding-top: 0;
+        padding-bottom: 40px;
+      }
+  
+      .dc-depth07 .dc-dp07-infoImg02 p.dp07-infotitle {
+        float: left;
+        width: 810px;
+        background-color: #804d88;
+        padding-left: 38px;
+        height: 60px;
+        line-height: 60px;
+        color: #ffffff;
+        font-size: 34px;
+        font-weight: 500;
+        text-align: left;
+      }
+  
+      .dc-depth07 .dc-dp07-infoImg02 ul {
+        float: left;
+        width: 100%;
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp07Icons02.png") left top no-repeat;
+        background-position: 81px 0;
+        background-size: 182px;
+        text-align: left;
+        margin-top: 29px;
+      }
+  
+      .dc-depth07 .dc-dp07-infoImg02 ul li {
+        display: block;
+        margin-left: 306px;
+        font-size: 26px;
+        color: #804d88;
+        height: 183px;
+        margin-bottom: 22px;
+        padding-top: 45px;
+      }
+  
+      .dc-depth07 .dc-dp07-infoImg02 ul li strong {
+        color: #804d88;
+      }
+  
+    }
+  
+    /* 섹션 8 시험결과*/
+    .dc-depth08 {
+      width: 100%;
+      margin: 0 auto;
+      padding: 16.250vw 5%;
+      overflow: hidden;
+      letter-spacing: -0.5px;
+    }
+  
+    .dc-depth08 .dc-dp08-hdtext {
+      width: 100%;
+      float: left;
+      text-align: left;
+    }
+  
+    .dc-depth08 .dc-dp08-hdtext ul {
+      width: 100%;
+      float: left;
+    }
+  
+    .dc-depth08 .dc-dp08-hdtext ul li {
+      display: block;
+      color: #333333;
+      font-size: 3.250vw;
+      line-height: 140%;
+    }
+  
+    .dc-depth08 .dc-dp08-hdtext ul li.frlatxt {
+      font-size: 7.110vw;
+      font-weight: 700;
+      margin-bottom: 3.000vw;
+    }
+  
+    .dc-depth08 .dc-dp08-hdtext ul li.mdlatxt02 {
+      font-size: 4.500vw;
+      color: #333333;
+      font-weight: 400;
+      margin-bottom: 2.000vw;
+      margin-top: 17.500vw;
+    }
+  
+    .dc-depth08 .dp08-tbl {
+      width: 100%;
+      float: left;
+      margin-top: 5.500vw;
+    }
+  
+    .dc-depth08 .dp08-tbl table {
+      width: 100%;
+      border-top: 1px solid #484848;
+    }
+  
+    .dc-depth08 .dp08-tbl table th {
+      background-color: #6b6b6b;
+      color: #fff;
+      font-size: 2.750vw;
+      font-weight: 600;
+      text-align: center;
+      padding: 1.750vw 0;
+      border-bottom: 1px solid #5b5b5b;
+      border-right: 1px solid #7e7e7e;
+    }
+  
+    .dc-depth08 .dp08-tbl table th:last-child {
+      border-right: none;
+    }
+  
+    .dc-depth08 .dp08-tbl table th.bgtd {
+      background-color: #d9d9d9;
+      border-bottom: 1px solid #a8a8a8;
+      padding: 1.750vw 0;
+      text-align: center;
+      color: #333333;
+      font-weight: 500;
+      font-size: 2.250vw;
+    }
+  
+    .dc-depth08 .dp08-tbl table th.bgtd img {
+      width: 1.500vw;
+    }
+  
+    .dc-depth08 .dp08-tbl table th.bgtd span.sq-icon {
+      display: inline;
+      width: 1.500vw;
+    }
+  
+    .dc-depth08 .dp08-tbl table td {
+      padding: 1.750vw 0;
+      text-align: center;
+      color: #333333;
+      border-bottom: 1px solid #5b5b5b;
+      border-right: 1px solid #7e7e7e;
+      font-size: 2.250vw;
+      font-weight: 300;
+      vertical-align: middle;
+    }
+  
+    .dc-depth08 .dp08-tbl table td:last-child {
+      border-right: none;
+    }
+  
+    .dc-depth08 .dp08-tbl table td strong {
+      font-weight: 500;
+    }
+  
+    .dc-depth08 .dp08-tbl ul {
+      width: 100%;
+      background-color: #ebeaec;
+      padding: 2.500vw;
+      margin-top: 1.000vw;
+      float: left;
+    }
+  
+    .dc-depth08 .dp08-tbl ul li {
+      display: block;
+      margin-bottom: 1.000vw;
+      font-size: 2.214vw;
+      color: #333333;
+      font-weight: 400;
+      text-align: left;
+      letter-spacing: -0.2px;
+    }
+  
+    .dc-depth08 .dp08-tbl ul li span {
+      color: #804d88;
+    }
+  
+    .dc-depth08 .dp08-tbl ul li:last-child {
+      margin-bottom: 0;
+    }
+  
+    .dc-depth08 .dp08-fttxt {
+      width: 100%;
+      text-align: right;
+      font-size: 2.000vw;
+      color: #666666;
+      margin-top: 1.750vw;
+      float: left;
+      letter-spacing: 0px;
+    }
+  
+    .dc-depth08 .dp08-graph {
+      width: 100%;
+      float: left;
+      margin-top: 7.250vw;
+    }
+  
+    .dc-depth08 .dp08-graph .dp08-gh-title {
+      width: 100%;
+      float: left;
+      font-size: 2.750vw;
+      font-weight: 500;
+      padding-bottom: 6.000vw;
+      text-align: center;
+      color: #333333;
+    }
+  
+    .dc-depth08 .dp08-graph .dp08-gh-img {
+      width: 100%;
+      float: left;
+      background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp08_gp.png") center top no-repeat;
+      background-size: 46.000vw;
+      padding-top: 36.250vw;
+      position: relative;
+    }
+  
+    .dc-depth08 .dp08-graph .dp08-gh-img p {
+      font-size: 2.344vw;
+      color: #636363;
+    }
+  
+    .dc-depth08 .dp08-graph .dp08-gh-img p.ghtext01 {
+      position: absolute;
+      left: 32.000vw;
+      top: 33.500vw;
+    }
+  
+    .dc-depth08 .dp08-graph .dp08-gh-img p.ghtext02 {
+      position: absolute;
+      left: 45.000vw;
+      top: 33.500vw;
+    }
+  
+    .dc-depth08 .dp08-graph .dp08-gh-img p.ghtext03 {
+      position: absolute;
+      left: 57.500vw;
+      top: 33.500vw;
+    }
+  
+    .dc-depth08 .dp08-graph ul {
+      width: 100%;
+      background-color: #ebeaec;
+      padding: 2.500vw;
+      margin-top: 3.906vw;
+      float: left;
+    }
+  
+    .dc-depth08 .dp08-graph ul li {
+      display: block;
+      margin-bottom: 1.000vw;
+      font-size: 2.214vw;
+      color: #333333;
+      font-weight: 400;
+      text-align: left;
+      letter-spacing: -0.2px;
+    }
+  
+    .dc-depth08 .dp08-graph ul li:last-child {
+      margin-bottom: 0;
+    }
+  
+    @media screen and (min-width: 768px) {
+      .dc-depth08 {
+        width: 768px;
+        margin: 0 auto;
+        padding: 16.536vw 5.078vw;
+        overflow: hidden;
+      }
+  
+      .dc-depth08 .dc-dp08-hdtext {
+        width: 100%;
+        float: left;
+        text-align: left;
+      }
+  
+      .dc-depth08 .dc-dp08-hdtext ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth08 .dc-dp08-hdtext ul li {
+        display: block;
+        color: #333333;
+        font-size: 3.125vw;
+        line-height: 140%;
+      }
+  
+      .dc-depth08 .dc-dp08-hdtext ul li.frlatxt {
+        font-size: 6.161vw;
+        font-weight: 700;
+        margin-bottom: 5.599vw;
+      }
+  
+      .dc-depth08 .dc-dp08-hdtext ul li.mdlatxt02 {
+        font-size: 4.500vw;
+        color: #333333;
+        font-weight: 400;
+        margin-bottom: 4.557vw;
+        margin-top: 17.057vw;
+      }
+  
+      .dc-depth08 .dp08-tbl {
+        width: 100%;
+        float: left;
+        margin-top: 5.339vw;
+      }
+  
+      .dc-depth08 .dp08-tbl table {
+        width: 100%;
+        border-top: 1px solid #484848;
+      }
+  
+      .dc-depth08 .dp08-tbl table th {
+        background-color: #6b6b6b;
+        color: #fff;
+        font-size: 2.604vw;
+        font-weight: 600;
+        text-align: center;
+        padding: 1.953vw 0;
+        border-bottom: 1px solid #5b5b5b;
+        border-right: 1px solid #7e7e7e;
+      }
+  
+      .dc-depth08 .dp08-tbl table th:last-child {
+        border-right: none;
+      }
+  
+      .dc-depth08 .dp08-tbl table th.bgtd {
+        background-color: #d9d9d9;
+        border-bottom: 1px solid #a8a8a8;
+        padding: 1.953vw 0;
+        text-align: center;
+        color: #333333;
+        font-weight: 500;
+        font-size: 2.474vw;
+      }
+  
+      .dc-depth08 .dp08-tbl table th.bgtd img {
+        width: 1.500vw;
+      }
+  
+      .dc-depth08 .dp08-tbl table th.bgtd span.sq-icon {
+        display: inline;
+        width: 1.172vw;
+      }
+  
+      .dc-depth08 .dp08-tbl table td {
+        padding: 1.953vw 0;
+        text-align: center;
+        color: #333333;
+        border-bottom: 1px solid #5b5b5b;
+        border-right: 1px solid #7e7e7e;
+        font-size: 2.474vw;
+        font-weight: 300;
+        vertical-align: middle;
+      }
+  
+      .dc-depth08 .dp08-tbl table td:last-child {
+        border-right: none;
+      }
+  
+      .dc-depth08 .dp08-tbl table td strong {
+        font-weight: 500;
+      }
+  
+      .dc-depth08 .dp08-tbl ul {
+        width: 100%;
+        background-color: #ebeaec;
+        padding: 2.344vw;
+        margin-top: 1.172vw;
+        float: left;
+      }
+  
+      .dc-depth08 .dp08-tbl ul li {
+        display: block;
+        margin-bottom: 1.432vw;
+        font-size: 2.214vw;
+        color: #333333;
+        font-weight: 400;
+        text-align: left;
+      }
+  
+      .dc-depth08 .dp08-tbl ul li span {
+        color: #804d88;
+      }
+  
+      .dc-depth08 .dp08-tbl ul li:last-child {
+        margin-bottom: 0;
+      }
+  
+      .dc-depth08 .dp08-fttxt {
+        width: 100%;
+        text-align: right;
+        font-size: 2.000vw;
+        color: #666666;
+        margin-top: 1.563vw;
+        float: left;
+      }
+  
+      .dc-depth08 .dp08-graph {
+        width: 100%;
+        float: left;
+        margin-top: 6.901vw;
+      }
+  
+      .dc-depth08 .dp08-graph .dp08-gh-title {
+        width: 100%;
+        float: left;
+        font-size: 2.604vw;
+        font-weight: 500;
+        padding-bottom: 5.990vw;
+        text-align: center;
+        color: #333333;
+      }
+  
+      .dc-depth08 .dp08-graph .dp08-gh-img {
+        width: 100%;
+        float: left;
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp08_gp.png") center top no-repeat;
+        background-size: 45.573vw;
+        padding-top: 39.063vw;
+        position: relative;
+      }
+  
+      .dc-depth08 .dp08-graph .dp08-gh-img p {
+        font-size: 2.083vw;
+        color: #636363;
+      }
+  
+      .dc-depth08 .dp08-graph .dp08-gh-img p.ghtext01 {
+        position: absolute;
+        left: 32.031vw;
+        top: 33.724vw;
+      }
+  
+      .dc-depth08 .dp08-graph .dp08-gh-img p.ghtext02 {
+        position: absolute;
+        left: 45.052vw;
+        top: 33.724vw;
+      }
+  
+      .dc-depth08 .dp08-graph .dp08-gh-img p.ghtext03 {
+        position: absolute;
+        left: 57.422vw;
+        top: 33.724vw;
+      }
+  
+      .dc-depth08 .dp08-graph ul {
+        width: 100%;
+        background-color: #ebeaec;
+        padding: 2.344vw;
+        margin-top: 3.776vw;
+        float: left;
+        text-align: left;
+      }
+  
+      .dc-depth08 .dp08-graph ul li {
+        display: block;
+        margin-bottom: 1.432vw;
+        font-size: 2.214vw;
+        color: #333333;
+        font-weight: 400;
+        letter-spacing: 0px;
+      }
+  
+      .dc-depth08 .dp08-graph ul li:last-child {
+        margin-bottom: 0;
+      }
+    }
+  
+    @media screen and (min-width: 900px) {
+      .dc-depth08 {
+        width: 900px;
+        margin: 0 auto;
+        padding: 150px 45px;
+        overflow: hidden;
+      }
+  
+      .dc-depth08 .dc-dp08-hdtext {
+        width: 100%;
+        float: left;
+        text-align: left;
+      }
+  
+      .dc-depth08 .dc-dp08-hdtext ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth08 .dc-dp08-hdtext ul li {
+        display: block;
+        color: #333333;
+        font-size: 28px;
+        line-height: 140%;
+      }
+  
+      .dc-depth08 .dc-dp08-hdtext ul li.frlatxt {
+        font-size: 64px;
+        font-weight: 700;
+        margin-bottom: 15px;
+      }
+  
+      .dc-depth08 .dc-dp08-hdtext ul li.mdlatxt02 {
+        font-size: 40px;
+        color: #333333;
+        font-weight: 400;
+        margin-bottom: 43px;
+        margin-top: 150px;
+      }
+  
+      .dc-depth08 .dp08-tbl {
+        width: 100%;
+        float: left;
+        margin-top: 50px;
+      }
+  
+      .dc-depth08 .dp08-tbl table {
+        width: 100%;
+        border-top: 1px solid #484848;
+      }
+  
+      .dc-depth08 .dp08-tbl table th {
+        background-color: #6b6b6b;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+        padding: 17px 0;
+        border-bottom: 1px solid #5b5b5b;
+        border-right: 1px solid #7e7e7e;
+      }
+  
+      .dc-depth08 .dp08-tbl table th:last-child {
+        border-right: none;
+      }
+  
+      .dc-depth08 .dp08-tbl table th.bgtd {
+        background-color: #d9d9d9;
+        border-bottom: 1px solid #a8a8a8;
+        padding: 17px 0;
+        text-align: center;
+        color: #333333;
+        font-weight: 500;
+        font-size: 20px;
+      }
+  
+      .dc-depth08 .dp08-tbl table th.bgtd img {
+        width: 10px;
+      }
+  
+      .dc-depth08 .dp08-tbl table th.bgtd span.sq-icon {
+        display: inline;
+        width: 10px;
+      }
+  
+      .dc-depth08 .dp08-tbl table td {
+        padding: 10px 0;
+        text-align: center;
+        color: #333333;
+        border-bottom: 1px solid #5b5b5b;
+        border-right: 1px solid #7e7e7e;
+        font-size: 20px;
+        font-weight: 300;
+        vertical-align: middle;
+      }
+  
+      .dc-depth08 .dp08-tbl table td:last-child {
+        border-right: none;
+      }
+  
+      .dc-depth08 .dp08-tbl table td strong {
+        font-weight: 500;
+      }
+  
+      .dc-depth08 .dp08-tbl ul {
+        width: 100%;
+        background-color: #ebeaec;
+        padding: 24px;
+        margin-top: 10px;
+        float: left;
+        text-align: left;
+      }
+  
+      .dc-depth08 .dp08-tbl ul li {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: #333333;
+        font-weight: 400;
+      }
+  
+      .dc-depth08 .dp08-tbl ul li span {
+        color: #804d88;
+      }
+  
+      .dc-depth08 .dp08-tbl ul li:last-child {
+        margin-bottom: 0;
+      }
+  
+      .dc-depth08 .dp08-fttxt {
+        width: 100%;
+        text-align: right;
+        font-size: 18px;
+        color: #666666;
+        margin-top: 16px;
+        float: left;
+      }
+  
+      .dc-depth08 .dp08-graph {
+        width: 100%;
+        float: left;
+        margin-top: 50px;
+      }
+  
+      .dc-depth08 .dp08-graph .dp08-gh-title {
+        width: 100%;
+        float: left;
+        font-size: 24px;
+        font-weight: 500;
+        padding: 14px 0;
+        text-align: center;
+        color: #333333;
+      }
+  
+      .dc-depth08 .dp08-graph .dp08-gh-img {
+        width: 100%;
+        float: left;
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp08_gp.png") center top no-repeat;
+        margin-top: 40px;
+        padding-top: 300px;
+        position: relative;
+      }
+  
+      .dc-depth08 .dp08-graph .dp08-gh-img p {
+        font-size: 20px;
+        color: #636363;
+      }
+  
+      .dc-depth08 .dp08-graph .dp08-gh-img p.ghtext01 {
+        position: absolute;
+        left: 284px;
+        top: 303px;
+      }
+  
+      .dc-depth08 .dp08-graph .dp08-gh-img p.ghtext02 {
+        position: absolute;
+        left: 405px;
+        top: 303px;
+      }
+  
+      .dc-depth08 .dp08-graph .dp08-gh-img p.ghtext03 {
+        position: absolute;
+        left: 513px;
+        top: 303px;
+      }
+  
+      .dc-depth08 .dp08-graph ul {
+        width: 100%;
+        background-color: #ebeaec;
+        padding: 24px;
+        margin-top: 60px;
+        float: left;
+        text-align: left;
+      }
+  
+      .dc-depth08 .dp08-graph ul li {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: #333333;
+        font-weight: 400;
+        letter-spacing: 0px;
+      }
+  
+      .dc-depth08 .dp08-graph ul li:last-child {
+        margin-bottom: 0;
+      }
+    }
+  
+    /* 섹션 9 혈중콜레스테롤 개선*/
+    .dc-depth09 {
+      width: 100%;
+      margin: 0 auto;
+      padding: 16.250vw 5%;
+      overflow: hidden;
+      background-color: #f4ebf9;
+      letter-spacing: -0.5px;
+    }
+  
+    .dc-depth09 .dc-dp09-hdtext {
+      width: 100%;
+      float: left;
+      text-align: left;
+    }
+  
+    .dc-depth09 .dc-dp09-hdtext ul {
+      width: 100%;
+      float: left;
+    }
+  
+    .dc-depth09 .dc-dp09-hdtext ul li {
+      display: block;
+      color: #333333;
+      font-size: 3.250vw;
+      line-height: 140%;
+    }
+  
+    .dc-depth09 .dc-dp09-hdtext ul li.frlatxt {
+      font-size: 7.110vw;
+      font-weight: 700;
+      margin-bottom: 3.000vw;
+    }
+  
+    .dc-depth09 .dc-dp09-img {
+      width: 100%;
+      float: left;
+      margin-top: 11.000vw;
+    }
+  
+    .dc-depth09 .dc-dp09-img ul {
+      width: 100%;
+      float: left;
+    }
+  
+    .dc-depth09 .dc-dp09-img ul li {
+      display: inline-block;
+      width: 49%;
+      text-align: center;
+      height: 45.000vw;
+      font-size: 4.000vw;
+      font-weight: 300;
+    }
+  
+    .dc-depth09 .dc-dp09-img ul li.dp09-01 {
+      background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp09-01.png") center bottom no-repeat;
+      color: #804d88;
+      background-size: 33.500vw;
+    }
+  
+    .dc-depth09 .dc-dp09-img ul li.dp09-01 span {
+      font-size: 6.750vw;
+      font-weight: 700;
+    }
+  
+    .dc-depth09 .dc-dp09-img ul li.dp09-02 {
+      background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp09-02.png") center bottom no-repeat;
+      color: #987d5e;
+      background-size: 33.500vw;
+    }
+  
+    .dc-depth09 .dc-dp09-img ul li.dp09-02 span {
+      font-size: 6.750vw;
+      font-weight: 700;
+    }
+  
+  
+    @media screen and (min-width: 768px) {
+      .dc-depth09 {
+        width: 768px;
+        margin: 0 auto;
+        padding: 16.536vw 5.078vw;
+        overflow: hidden;
+        background-color: #f4ebf9;
+      }
+  
+      .dc-depth09 .dc-dp09-hdtext {
+        width: 100%;
+        float: left;
+        text-align: left;
+      }
+  
+      .dc-depth09 .dc-dp09-hdtext ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth09 .dc-dp09-hdtext ul li {
+        display: block;
+        color: #333333;
+        font-size: 3.125vw;
+        line-height: 140%;
+      }
+  
+      .dc-depth09 .dc-dp09-hdtext ul li.frlatxt {
+        font-size: 6.161vw;
+        font-weight: 700;
+        margin-bottom: 5.599vw;
+      }
+  
+      .dc-depth09 .dc-dp09-img {
+        width: 100%;
+        float: left;
+        margin-top: 10.677vw;
+      }
+  
+      .dc-depth09 .dc-dp09-img ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth09 .dc-dp09-img ul li {
+        display: inline-block;
+        width: 49%;
+        text-align: center;
+        height: 46.224vw;
+        font-size: 4.036vw;
+        font-weight: 300;
+      }
+  
+      .dc-depth09 .dc-dp09-img ul li.dp09-01 {
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp09-01.png") center bottom no-repeat;
+        color: #804d88;
+        background-size: 30.208vw;
+      }
+  
+      .dc-depth09 .dc-dp09-img ul li.dp09-01 span {
+        font-size: 6.641vw;
+        font-weight: 700;
+      }
+  
+      .dc-depth09 .dc-dp09-img ul li.dp09-02 {
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp09-02.png") center bottom no-repeat;
+        color: #987d5e;
+        background-size: 30.208vw;
+      }
+  
+      .dc-depth09 .dc-dp09-img ul li.dp09-02 span {
+        font-size: 6.641vw;
+        font-weight: 700;
+      }
+  
+  
+    }
+  
+    @media screen and (min-width: 900px) {
+      .dc-depth09 {
+        width: 900px;
+        margin: 0 auto;
+        padding: 150px 45px;
+        overflow: hidden;
+        background-color: #f4ebf9;
+      }
+  
+      .dc-depth09 .dc-dp09-hdtext {
+        width: 100%;
+        float: left;
+        text-align: left;
+      }
+  
+      .dc-depth09 .dc-dp09-hdtext ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth09 .dc-dp09-hdtext ul li {
+        display: block;
+        color: #333333;
+        font-size: 28px;
+        line-height: 140%;
+      }
+  
+      .dc-depth09 .dc-dp09-hdtext ul li.frlatxt {
+        font-size: 64px;
+        font-weight: 700;
+        margin-bottom: 15px;
+      }
+  
+      .dc-depth09 .dc-dp09-img {
+        width: 100%;
+        float: left;
+        margin-top: 100px;
+      }
+  
+      .dc-depth09 .dc-dp09-img ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth09 .dc-dp09-img ul li {
+        display: inline-block;
+        width: 49%;
+        text-align: center;
+        height: 390px;
+        font-size: 36px;
+        font-weight: 300;
+      }
+  
+      .dc-depth09 .dc-dp09-img ul li.dp09-01 {
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp09-01.png") center bottom no-repeat;
+        color: #804d88;
+        background-size: 280px;
+      }
+  
+      .dc-depth09 .dc-dp09-img ul li.dp09-01 span {
+        font-size: 60px;
+        font-weight: 700;
+      }
+  
+      .dc-depth09 .dc-dp09-img ul li.dp09-02 {
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp09-02.png") center bottom no-repeat;
+        color: #987d5e;
+        background-size: 280px;
+      }
+  
+      .dc-depth09 .dc-dp09-img ul li.dp09-02 span {
+        font-size: 60px;
+        font-weight: 700;
+      }
+  
+  
+    }
+  
+  
+    /* 섹션 10 섭취량*/
+    .dc-depth10 {
+      width: 100%;
+      margin: 0 auto;
+      padding: 16.250vw 5%;
+      overflow: hidden;
+      letter-spacing: -0.5px;
+    }
+  
+    .dc-depth10 .dc-dp10-hdtext {
+      width: 100%;
+      float: left;
+      text-align: left;
+    }
+  
+    .dc-depth10 .dc-dp10-hdtext ul {
+      width: 100%;
+      float: left;
+    }
+  
+    .dc-depth10 .dc-dp10-hdtext ul li {
+      display: block;
+      color: #333333;
+      font-size: 3.250vw;
+      line-height: 140%;
+    }
+  
+    .dc-depth10 .dc-dp10-hdtext ul li.frlatxt {
+      font-size: 7.110vw;
+      font-weight: 700;
+      margin-bottom: 3.000vw;
+    }
+  
+    .dc-depth10 .dc-dp10-hdtext ul li.mdlatxt {
+      font-size: 4.445vw;
+      color: #804d88;
+      font-weight: 500;
+      margin-bottom: 4.500vw;
+    }
+  
+    .dc-depth10 .dc-dp10-img {
+      float: left;
+      width: 100%;
+      height: 45.000vw;
+      border: 2px solid #f4ebf9;
+      margin-left: -2px;
+      position: relative;
+      background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp10.png") left top no-repeat;
+      background-size: 58.250vw;
+      background-position: 8.250vw 4.500vw;
+      margin-top: 5.750vw;
+    }
+  
+    .dc-depth10 .dc-dp10-img p.dp-intxt01 {
+      position: absolute;
+      left: 8.750vw;
+      top: 32.000vw;
+      font-size: 2.750vw;
+      color: #333333;
+      text-align: center;
+    }
+  
+    .dc-depth10 .dc-dp10-img p.dp-intxt02 {
+      position: absolute;
+      left: 43.750vw;
+      top: 2.500vw;
+      font-size: 2.750vw;
+      color: #804d88;
+      text-align: center;
+    }
+  
+    .dc-depth10 .dc-dp10-img p.dp-intxt03 {
+      position: absolute;
+      right: 4.000vw;
+      top: 9.500vw;
+      font-size: 3.000vw;
+      color: #804d88;
+      text-align: center;
+      font-weight: 700;
+    }
+  
+    .dc-depth10 .dc-dp10-img p.dp-intxt04 {
+      position: absolute;
+      right: 5.000vw;
+      top: 18.000vw;
+      font-size: 4.000vw;
+      color: #5344a6;
+      text-align: center;
+      font-weight: 700;
+      background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp10-01.png") center no-repeat;
+      background-size: 13.750vw;
+      width: 13.750vw;
+      height: 13.750vw;
+      font-weight: 400;
+      padding-top: 1.750vw;
+    }
+  
+    .dc-depth10 .dc-dp10-img p.dp-intxt04 span {
+      font-size: 3.000vw;
+      font-weight: 700;
+    }
+  
+    .dc-depth10 .dc-dp10-img p.dp-intxt05 {
+      position: absolute;
+      right: 6.500vw;
+      top: 32.500vw;
+      font-size: 2.750vw;
+      color: #5344a6;
+      text-align: center;
+    }
+  
+    @media screen and (min-width: 768px) {
+      .dc-depth10 {
+        width: 768px;
+        margin: 0 auto;
+        padding: 16.536vw 5.078vw;
+        overflow: hidden;
+      }
+  
+      .dc-depth10 .dc-dp10-hdtext {
+        width: 100%;
+        float: left;
+        text-align: left;
+      }
+  
+      .dc-depth10 .dc-dp10-hdtext ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth10 .dc-dp10-hdtext ul li {
+        display: block;
+        color: #333333;
+        font-size: 3.125vw;
+        line-height: 140%;
+      }
+  
+      .dc-depth10 .dc-dp10-hdtext ul li.frlatxt {
+        font-size: 6.161vw;
+        font-weight: 700;
+        margin-bottom: 5.599vw;
+      }
+  
+      .dc-depth10 .dc-dp10-hdtext ul li.mdlatxt {
+        font-size: 4.427vw;
+        color: #804d88;
+        font-weight: 500;
+        margin-bottom: 4.500vw;
+      }
+  
+      .dc-depth10 .dc-dp10-img {
+        float: left;
+        width: 100%;
+        height: 44.271vw;
+        border: 2px solid #f4ebf9;
+        margin-left: -2px;
+        position: relative;
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp10.png") left top no-repeat;
+        background-size: 58.333vw;
+        background-position: 8.333vw 4.427vw;
+        margin-top: 5.469vw;
+      }
+  
+      .dc-depth10 .dc-dp10-img p.dp-intxt01 {
+        position: absolute;
+        left: 8.073vw;
+        top: 31.901;
+        font-size: 2.865vw;
+        color: #333333;
+        text-align: center;
+      }
+  
+      .dc-depth10 .dc-dp10-img p.dp-intxt02 {
+        position: absolute;
+        left: 44.010vw;
+        top: 2.604vw;
+        font-size: 2.865vw;
+        color: #804d88;
+        text-align: center;
+      }
+  
+      .dc-depth10 .dc-dp10-img p.dp-intxt03 {
+        position: absolute;
+        right: 5.000vw;
+        top: 9.505vw;
+        font-size: 2.865vw;
+        color: #804d88;
+        text-align: center;
+        font-weight: 700;
+      }
+  
+      .dc-depth10 .dc-dp10-img p.dp-intxt04 {
+        position: absolute;
+        right: 5.000vw;
+        top: 17.969vw;
+        font-size: 3.125vw;
+        color: #5344a6;
+        text-align: center;
+        font-weight: 700;
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp10-01.png") center no-repeat;
+        background-size: 13.932vw;
+        width: 13.932vw;
+        height: 13.932vw;
+        font-weight: 400;
+        padding-top: 3.255vw;
+      }
+  
+      .dc-depth10 .dc-dp10-img p.dp-intxt04 span {
+        font-size: 4.167vw;
+        font-weight: 700;
+      }
+  
+      .dc-depth10 .dc-dp10-img p.dp-intxt05 {
+        position: absolute;
+        right: 9.115vw;
+        top: 33.203vw;
+        font-size: 2.604vw;
+        color: #5344a6;
+        text-align: center;
+      }
+    }
+  
+    @media screen and (min-width: 900px) {
+      .dc-depth10 {
+        width: 900px;
+        margin: 0 auto;
+        padding: 150px 45px;
+        overflow: hidden;
+      }
+  
+      .dc-depth10 .dc-dp10-hdtext {
+        width: 100%;
+        float: left;
+        text-align: left;
+      }
+  
+      .dc-depth10 .dc-dp10-hdtext ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth10 .dc-dp10-hdtext ul li {
+        display: block;
+        color: #333333;
+        font-size: 28px;
+        line-height: 140%;
+      }
+  
+      .dc-depth10 .dc-dp10-hdtext ul li.frlatxt {
+        font-size: 64px;
+        font-weight: 700;
+        margin-bottom: 15px;
+      }
+  
+      .dc-depth10 .dc-dp10-hdtext ul li.mdlatxt {
+        font-size: 40px;
+        color: #804d88;
+        font-weight: 500;
+        margin-bottom: 22px;
+      }
+  
+      .dc-depth10 .dc-dp10-img {
+        float: left;
+        width: 100%;
+        height: 420px;
+        border: 2px solid #f4ebf9;
+        margin-left: -2px;
+        position: relative;
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp10.png") left top no-repeat;
+        background-position: 70px 42px;
+        margin-top: 50px;
+      }
+  
+      .dc-depth10 .dc-dp10-img p.dp-intxt01 {
+        position: absolute;
+        left: 70px;
+        top: 287px;
+        font-size: 26px;
+        color: #333333;
+        text-align: center;
+      }
+  
+      .dc-depth10 .dc-dp10-img p.dp-intxt02 {
+        position: absolute;
+        left: 410px;
+        top: 24px;
+        font-size: 26px;
+        color: #804d88;
+        text-align: center;
+      }
+  
+      .dc-depth10 .dc-dp10-img p.dp-intxt03 {
+        position: absolute;
+        right: 45px;
+        top: 83px;
+        font-size: 28px;
+        color: #804d88;
+        text-align: center;
+        font-weight: 700;
+      }
+  
+      .dc-depth10 .dc-dp10-img p.dp-intxt04 {
+        position: absolute;
+        left: 620px;
+        top: 161px;
+        font-size: 24px;
+        color: #5344a6;
+        text-align: center;
+        font-weight: 700;
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp10-01.png") center no-repeat;
+        width: 126px;
+        height: 126px;
+        font-weight: 400;
+        padding-top: 30px;
+      }
+  
+      .dc-depth10 .dc-dp10-img p.dp-intxt04 span {
+        font-size: 36px;
+        font-weight: 700;
+      }
+  
+      .dc-depth10 .dc-dp10-img p.dp-intxt05 {
+        position: absolute;
+        right: 70px;
+        top: 300px;
+        font-size: 24px;
+        color: #5344a6;
+        text-align: center;
+      }
+    }
+  
+    /* 섹션 11 저온압착방식*/
+    .dc-depth11 {
+      width: 100%;
+      margin: 0 auto;
+      padding: 16.250vw 5%;
+      overflow: hidden;
+      background-color: #ebeaec;
+      letter-spacing: -0.5px;
+    }
+  
+    .dc-depth11 .dc-dp11-hdtext {
+      width: 100%;
+      float: left;
+      text-align: left;
+    }
+  
+    .dc-depth11 .dc-dp11-hdtext ul {
+      width: 100%;
+      float: left;
+    }
+  
+    .dc-depth11 .dc-dp11-hdtext ul li {
+      display: block;
+      color: #333333;
+      font-size: 3.250vw;
+      line-height: 140%;
+    }
+  
+    .dc-depth11 .dc-dp11-hdtext ul li.frlatxt {
+      font-size: 7.110vw;
+      font-weight: 700;
+      margin-bottom: 3.000vw;
+    }
+  
+    .dc-depth11 .dc-dp11-hdtext ul li.mdlatxt {
+      font-size: 4.445vw;
+      color: #804d88;
+      font-weight: 500;
+      margin-bottom: 4.500vw;
+    }
+  
+    .dc-depth11 .dc-dp11-progress {
+      width: 100%;
+      float: left;
+      background: #fff url("https://publish-static.atomy.com/images/products/kr/004043/img_dp11.png") center top no-repeat;
+      background-size: 83.250vw;
+      background-position: 50% 3.750vw;
+      height: 55.000vw;
+      position: relative;
+      margin-top: 5.500vw;
+    }
+  
+    .dc-depth11 .dc-dp11-progress p {
+      font-size: 2.500vw;
+      color: #87578e;
+      text-align: center;
+      font-weight: 500;
+    }
+  
+    .dc-depth11 .dc-dp11-progress p.pgtext01 {
+      position: absolute;
+      left: 7.000vw;
+      top: 21.000vw;
+    }
+  
+    .dc-depth11 .dc-dp11-progress p.pgtext02 {
+      position: absolute;
+      left: 32.750vw;
+      top: 21.000vw;
+    }
+  
+    .dc-depth11 .dc-dp11-progress p.pgtext03 {
+      position: absolute;
+      left: 59.250vw;
+      top: 21.000vw;
+    }
+  
+    .dc-depth11 .dc-dp11-progress p.pgtext04 {
+      position: absolute;
+      left: 6.500vw;
+      top: 48.000vw;
+    }
+  
+    .dc-depth11 .dc-dp11-progress p.pgtext05 {
+      position: absolute;
+      left: 31.000vw;
+      top: 48.000vw;
+    }
+  
+    .dc-depth11 .dc-dp11-progress p.pgtext06 {
+      position: absolute;
+      left: 59.500vw;
+      top: 48.000vw;
+    }
+  
+    .dc-depth11 .dc-dp11-progress p.pgtext07 {
+      position: absolute;
+      right: 5.000vw;
+      top: 34.500vw;
+      color: #fff;
+      font-size: 3.500vw;
+    }
+  
+    .dc-depth11 .dc-dp11-progress p.pgtext07 span {
+      font-size: 3.500vw;
+      font-weight: 700;
+    }
+  
+  
+    @media screen and (min-width: 768px) {
+      .dc-depth11 {
+        width: 768px;
+        margin: 0 auto;
+        padding: 16.536vw 5.078vw;
+        overflow: hidden;
+        background-color: #ebeaec;
+      }
+  
+      .dc-depth11 .dc-dp11-hdtext {
+        width: 100%;
+        float: left;
+        text-align: left;
+      }
+  
+      .dc-depth11 .dc-dp11-hdtext ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth11 .dc-dp11-hdtext ul li {
+        display: block;
+        color: #333333;
+        font-size: 3.125vw;
+        line-height: 140%;
+      }
+  
+      .dc-depth11 .dc-dp11-hdtext ul li.frlatxt {
+        font-size: 6.161vw;
+        font-weight: 700;
+        margin-bottom: 5.599vw;
+      }
+  
+      .dc-depth11 .dc-dp11-hdtext ul li.mdlatxt {
+        font-size: 4.427vw;
+        color: #804d88;
+        font-weight: 500;
+        margin-bottom: 4.500vw;
+      }
+  
+      .dc-depth11 .dc-dp11-progress {
+        width: 100%;
+        float: left;
+        background: #fff url("https://publish-static.atomy.com/images/products/kr/004043/img_dp11.png") center top no-repeat;
+        background-size: 82.682vw;
+        background-position: 50% 3.776vw;
+        height: 54.948vw;
+        margin-top: 5.729vw;
+        position: relative;
+      }
+  
+      .dc-depth11 .dc-dp11-progress p {
+        font-size: 2.344vw;
+        color: #87578e;
+        text-align: center;
+        font-weight: 500;
+      }
+  
+      .dc-depth11 .dc-dp11-progress p.pgtext01 {
+        position: absolute;
+        left: 7.292vw;
+        top: 20.833vw;
+      }
+  
+      .dc-depth11 .dc-dp11-progress p.pgtext02 {
+        position: absolute;
+        left: 33.203vw;
+        top: 20.833vw;
+      }
+  
+      .dc-depth11 .dc-dp11-progress p.pgtext03 {
+        position: absolute;
+        left: 59.375vw;
+        top: 20.833vw;
+      }
+  
+      .dc-depth11 .dc-dp11-progress p.pgtext04 {
+        position: absolute;
+        left: 6.120vw;
+        top: 47.917vw;
+      }
+  
+      .dc-depth11 .dc-dp11-progress p.pgtext05 {
+        position: absolute;
+        left: 31.120vw;
+        top: 47.917vw;
+      }
+  
+      .dc-depth11 .dc-dp11-progress p.pgtext06 {
+        position: absolute;
+        left: 59.505vw;
+        top: 47.917vw;
+      }
+  
+      .dc-depth11 .dc-dp11-progress p.pgtext07 {
+        position: absolute;
+        right: 7.031vw;
+        top: 34.766vw;
+        color: #fff;
+        font-size: 2.604vw;
+      }
+  
+      .dc-depth11 .dc-dp11-progress p.pgtext07 span {
+        font-size: 3.516vw;
+        font-weight: 700;
+      }
+  
+    }
+  
+    @media screen and (min-width: 900px) {
+      .dc-depth11 {
+        width: 900px;
+        margin: 0 auto;
+        padding: 150px 45px;
+        overflow: hidden;
+        background-color: #ebeaec;
+      }
+  
+      .dc-depth11 .dc-dp11-hdtext {
+        width: 100%;
+        float: left;
+        text-align: left;
+      }
+  
+      .dc-depth11 .dc-dp11-hdtext ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth11 .dc-dp11-hdtext ul li {
+        display: block;
+        color: #333333;
+        font-size: 28px;
+        line-height: 140%;
+      }
+  
+      .dc-depth11 .dc-dp11-hdtext ul li.frlatxt {
+        font-size: 64px;
+        font-weight: 700;
+        margin-bottom: 15px;
+      }
+  
+      .dc-depth11 .dc-dp11-hdtext ul li.mdlatxt {
+        font-size: 40px;
+        color: #804d88;
+        font-weight: 500;
+        margin-bottom: 22px;
+      }
+  
+      .dc-depth11 .dc-dp11-progress {
+        width: 100%;
+        float: left;
+        background: #fff url("https://publish-static.atomy.com/images/products/kr/004043/img_dp11.png") center top no-repeat;
+        background-position: 50% 30px;
+        height: 495px;
+        margin-top: 50px;
+        position: relative;
+      }
+  
+      .dc-depth11 .dc-dp11-progress p {
+        font-size: 22px;
+        color: #87578e;
+        text-align: center;
+        font-weight: 500;
+      }
+  
+      .dc-depth11 .dc-dp11-progress p.pgtext01 {
+        position: absolute;
+        left: 55px;
+        top: 185px;
+      }
+  
+      .dc-depth11 .dc-dp11-progress p.pgtext02 {
+        position: absolute;
+        left: 290px;
+        top: 185px;
+      }
+  
+      .dc-depth11 .dc-dp11-progress p.pgtext03 {
+        position: absolute;
+        left: 534px;
+        top: 185px;
+      }
+  
+      .dc-depth11 .dc-dp11-progress p.pgtext04 {
+        position: absolute;
+        left: 56px;
+        top: 430px;
+      }
+  
+      .dc-depth11 .dc-dp11-progress p.pgtext05 {
+        position: absolute;
+        left: 280px;
+        top: 430px;
+      }
+  
+      .dc-depth11 .dc-dp11-progress p.pgtext06 {
+        position: absolute;
+        left: 537px;
+        top: 430px;
+      }
+  
+      .dc-depth11 .dc-dp11-progress p.pgtext07 {
+        position: absolute;
+        right: 67px;
+        top: 315px;
+        color: #fff;
+        font-size: 22px;
+      }
+  
+      .dc-depth11 .dc-dp11-progress p.pgtext07 span {
+        font-size: 30px;
+        font-weight: 700;
+      }
+  
+  
+    }
+  
+    /* 섹션 12 부원료*/
+    .dc-depth12 {
+      width: 100%;
+      margin: 0 auto;
+      padding: 16.250vw 5%;
+      overflow: hidden;
+      letter-spacing: -0.5px;
+    }
+  
+    .dc-depth12 .dc-dp12-hdtext {
+      width: 100%;
+      float: left;
+      text-align: left;
+    }
+  
+    .dc-depth12 .dc-dp12-hdtext ul {
+      width: 100%;
+      float: left;
+    }
+  
+    .dc-depth12 .dc-dp12-hdtext ul li {
+      display: block;
+      color: #333333;
+      font-size: 3.250vw;
+    }
+  
+    .dc-depth12 .dc-dp12-hdtext ul li.frlatxt {
+      font-size: 7.110vw;
+      font-weight: 700;
+    }
+  
+    .dc-depth12 .dc-dp12-img {
+      width: 100%;
+      float: left;
+      margin-top: 8.250vw;
+    }
+  
+    .dc-depth12 .dc-dp12-img ul {
+      width: 100%;
+      float: left;
+    }
+  
+    .dc-depth12 .dc-dp12-img ul li {
+      width: 50%;
+      float: left;
+      text-align: center;
+      font-size: 3.000vw;
+      color: #804d88;
+      font-weight: 500;
+      margin-bottom: 4.500vw;
+    }
+  
+    .dc-depth12 .dc-dp12-img ul li img {
+      width: 33.750vw;
+    }
+  
+    @media screen and (min-width: 768px) {
+      .dc-depth12 {
+        width: 768px;
+        margin: 0 auto;
+        padding: 16.536vw 5.078vw;
+        overflow: hidden;
+      }
+  
+      .dc-depth12 .dc-dp12-hdtext {
+        width: 100%;
+        float: left;
+        text-align: left;
+      }
+  
+      .dc-depth12 .dc-dp12-hdtext ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth12 .dc-dp12-hdtext ul li {
+        display: block;
+        color: #333333;
+        font-size: 3.125vw;
+        line-height: 140%;
+      }
+  
+      .dc-depth12 .dc-dp12-hdtext ul li.frlatxt {
+        font-size: 6.161vw;
+        font-weight: 700;
+        margin-bottom: 5.599vw;
+      }
+  
+      .dc-depth12 .dc-dp12-img {
+        width: 100%;
+        float: left;
+        margin-top: 8.464vw;
+      }
+  
+      .dc-depth12 .dc-dp12-img ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth12 .dc-dp12-img ul li {
+        width: 50%;
+        float: left;
+        text-align: center;
+        font-size: 3.125vw;
+        color: #804d88;
+        font-weight: 500;
+        margin-bottom: 5.208vw;
+      }
+  
+      .dc-depth12 .dc-dp12-img ul li img {
+        width: 33.854vw;
+      }
+  
+    }
+  
+    @media screen and (min-width: 900px) {
+      .dc-depth12 {
+        width: 900px;
+        margin: 0 auto;
+        padding: 150px 45px;
+        overflow: hidden;
+      }
+  
+      .dc-depth12 .dc-dp12-hdtext {
+        width: 100%;
+        float: left;
+        text-align: left;
+      }
+  
+      .dc-depth12 .dc-dp12-hdtext ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth12 .dc-dp12-hdtext ul li {
+        display: block;
+        color: #333333;
+        font-size: 28px;
+        line-height: 140%;
+      }
+  
+      .dc-depth12 .dc-dp12-hdtext ul li.frlatxt {
+        font-size: 64px;
+        font-weight: 700;
+      }
+  
+      .dc-depth12 .dc-dp12-img {
+        width: 100%;
+        float: left;
+        margin-top: 77px;
+      }
+  
+      .dc-depth12 .dc-dp12-img ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth12 .dc-dp12-img ul li {
+        width: 50%;
+        float: left;
+        text-align: center;
+        font-size: 28px;
+        color: #804d88;
+        font-weight: 500;
+        margin-bottom: 45px;
+      }
+  
+      .dc-depth12 .dc-dp12-img ul li img {
+        width: 307px;
+      }
+    }
+  
+    /* 섹션 13 v-라벨인증*/
+    .dc-depth13 {
+      width: 100%;
+      margin: 0 auto;
+      padding: 16.250vw 5%;
+      overflow: hidden;
+      background-color: #f4ebf9;
+      letter-spacing: -0.5px;
+    }
+  
+    .dc-depth13 .dc-dp13-hdtext {
+      width: 100%;
+      float: left;
+      text-align: left;
+    }
+  
+    .dc-depth13 .dc-dp13-hdtext ul {
+      width: 100%;
+      float: left;
+    }
+  
+    .dc-depth13 .dc-dp13-hdtext ul li {
+      display: block;
+      color: #333333;
+      font-size: 3.250vw;
+      line-height: 140%;
+    }
+  
+    .dc-depth13 .dc-dp13-hdtext ul li.frlatxt {
+      font-size: 7.110vw;
+      font-weight: 700;
+      margin-bottom: 3.000vw;
+    }
+  
+    .dc-depth13 .dc-dp13-hdtext ul li.mdlatxt {
+      font-size: 4.445vw;
+      color: #804d88;
+      font-weight: 500;
+      margin-bottom: 4.500vw;
+    }
+  
+    .dc-depth13 .dc-dp13-img {
+      width: 100%;
+      float: left;
+      background: #fff url("https://publish-static.atomy.com/images/products/kr/004043/img_dp13.png") left top no-repeat;
+      background-size: 90.000vw;
+      height: 52.500vw;
+      margin-top: 5.750vw;
+      position: relative;
+    }
+  
+    .dc-depth13 .dc-dp13-img p.dp13-intext01 {
+      position: absolute;
+      left: 10.000vw;
+      top: 9.500vw;
+      font-size: 2.875vw;
+      color: #fff;
+      text-align: center;
+    }
+  
+    .dc-depth13 .dc-dp13-img ul {
+      width: 51.250vw;
+      float: left;
+      margin-left: 32.000vw;
+      margin-top: 19.000vw;
+      text-align: left;
+    }
+  
+    .dc-depth13 .dc-dp13-img ul li {
+      display: block;
+      letter-spacing: -0.2px;
+    }
+  
+    .dc-depth13 .dc-dp13-img ul li.lititle {
+      font-size: 3.110vw;
+      color: #804d88;
+      font-weight: 300;
+      margin-bottom: 2.750vw;
+    }
+  
+    .dc-depth13 .dc-dp13-img ul li.lititle strong {
+      color: #804d88 !important;
+    }
+  
+    .dc-depth13 .dc-dp13-img ul li.listtype {
+      background: url("https://publish-static.atomy.com/images/products/kr/004043/bg_liststy.png") left top no-repeat;
+      background-size: 2.500vw;
+      background-position: 0 0.750vw;
+      padding-left: 3.000vw;
+      font-size: 2.250vw;
+      color: #333333;
+      font-weight: 400;
+      border-bottom: 1px solid #804d88;
+      padding-bottom: 3.000vw;
+    }
+  
+    .dc-depth13 .dc-dp13-img ul li:last-child {
+      border-bottom: none;
+      margin-top: 3.000vw;
+    }
+  
+    @media screen and (min-width: 768px) {
+      .dc-depth13 {
+        width: 768px;
+        margin: 0 auto;
+        padding: 16.536vw 5.078vw;
+        overflow: hidden;
+        background-color: #f4ebf9;
+      }
+  
+      .dc-depth13 .dc-dp13-hdtext {
+        width: 100%;
+        float: left;
+        text-align: left;
+      }
+  
+      .dc-depth13 .dc-dp13-hdtext ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth13 .dc-dp13-hdtext ul li {
+        display: block;
+        color: #333333;
+        font-size: 3.125vw;
+        line-height: 140%;
+      }
+  
+      .dc-depth13 .dc-dp13-hdtext ul li.frlatxt {
+        font-size: 6.161vw;
+        font-weight: 700;
+        margin-bottom: 5.599vw;
+      }
+  
+      .dc-depth13 .dc-dp13-hdtext ul li.mdlatxt {
+        font-size: 36px;
+        color: #804d88;
+        font-weight: 500;
+        margin-bottom: 4.500vw;
+      }
+  
+      .dc-depth13 .dc-dp13-img {
+        width: 100%;
+        float: left;
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp13.png") left top no-repeat;
+        background-size: 90.104vw;
+        height: 52.083vw;
+        margin-top: 5.469vw;
+        position: relative;
+      }
+  
+      .dc-depth13 .dc-dp13-img p.dp13-intext01 {
+        position: absolute;
+        left: 10.156vw;
+        top: 9.505vw;
+        font-size: 2.865vw;
+        color: #fff;
+        text-align: center;
+      }
+  
+      .dc-depth13 .dc-dp13-img ul {
+        width: 51.432vw;
+        float: left;
+        margin-left: 32.031vw;
+        margin-top: 19.010vw;
+        text-align: left;
+      }
+  
+      .dc-depth13 .dc-dp13-img ul li {
+        display: block;
+      }
+  
+      .dc-depth13 .dc-dp13-img ul li.lititle {
+        font-size: 3.125vw;
+        color: #804d88;
+        font-weight: 300;
+        margin-bottom: 2.865vw;
+      }
+  
+      .dc-depth13 .dc-dp13-img ul li.listtype {
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/bg_liststy.png") left top no-repeat;
+        background-position: 0 0.521vw;
+        padding-left: 2.865vw;
+        font-size: 2.214vw;
+        color: #333333;
+        font-weight: 400;
+        line-height: 26px;
+        border-bottom: 1px solid #804d88;
+        padding-bottom: 3.125vw;
+      }
+  
+      .dc-depth13 .dc-dp13-img ul li:last-child {
+        border-bottom: none;
+        margin-top: 3.125vw;
+      }
+  
+    }
+  
+    @media screen and (min-width: 900px) {
+      .dc-depth13 {
+        width: 900px;
+        margin: 0 auto;
+        padding: 150px 45px;
+        overflow: hidden;
+        background-color: #f4ebf9;
+      }
+  
+      .dc-depth13 .dc-dp13-hdtext {
+        width: 100%;
+        float: left;
+        text-align: left;
+      }
+  
+      .dc-depth13 .dc-dp13-hdtext ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth13 .dc-dp13-hdtext ul li {
+        display: block;
+        color: #333333;
+        font-size: 28px;
+        line-height: 140%;
+      }
+  
+      .dc-depth13 .dc-dp13-hdtext ul li.frlatxt {
+        font-size: 64px;
+        font-weight: 700;
+        margin-bottom: 18px;
+      }
+  
+      .dc-depth13 .dc-dp13-hdtext ul li.mdlatxt {
+        font-size: 40px;
+        color: #804d88;
+        font-weight: 500;
+        margin-bottom: 22px;
+      }
+  
+      .dc-depth13 .dc-dp13-img {
+        width: 100%;
+        float: left;
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp13.png") left top no-repeat;
+        height: 475px;
+        margin-top: 50px;
+        position: relative;
+      }
+  
+      .dc-depth13 .dc-dp13-img p.dp13-intext01 {
+        position: absolute;
+        left: 91px;
+        top: 83px;
+        font-size: 26px;
+        color: #fff;
+        text-align: center;
+      }
+  
+      .dc-depth13 .dc-dp13-img ul {
+        width: 470px;
+        float: left;
+        margin-left: 284px;
+        margin-top: 172px;
+        text-align: left;
+      }
+  
+      .dc-depth13 .dc-dp13-img ul li {
+        display: block;
+      }
+  
+      .dc-depth13 .dc-dp13-img ul li.lititle {
+        font-size: 28px;
+        color: #804d88;
+        font-weight: 300;
+        margin-bottom: 16px;
+      }
+  
+      .dc-depth13 .dc-dp13-img ul li.listtype {
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/bg_liststy.png") left top no-repeat;
+        background-position: 0 5px;
+        padding-left: 28px;
+        font-size: 20px;
+        color: #333333;
+        font-weight: 400;
+        line-height: 30px;
+        border-bottom: 1px solid #804d88;
+        padding-bottom: 20px;
+      }
+  
+      .dc-depth13 .dc-dp13-img ul li:last-child {
+        border-bottom: none;
+        margin-top: 20px;
+      }
+    }
+  
+  
+    /* 섹션 14 ptp포장*/
+    .dc-depth14 {
+      width: 100%;
+      margin: 0 auto;
+      padding: 16.250vw 5%;
+      overflow: hidden;
+      letter-spacing: -0.5px;
+    }
+  
+    .dc-depth14 .dc-dp14-hdtext {
+      width: 100%;
+      float: left;
+      text-align: left;
+    }
+  
+    .dc-depth14 .dc-dp14-hdtext ul {
+      width: 100%;
+      float: left;
+    }
+  
+    .dc-depth14 .dc-dp14-hdtext ul li {
+      display: block;
+      color: #333333;
+      font-size: 3.250vw;
+      line-height: 140%;
+    }
+  
+    .dc-depth14 .dc-dp14-hdtext ul li.frlatxt {
+      font-size: 7.110vw;
+      font-weight: 700;
+      margin-bottom: 3.000vw;
+    }
+  
+    .dc-depth14 .dc-dp14-hdtext ul li.mdlatxt {
+      font-size: 4.445vw;
+      color: #804d88;
+      font-weight: 500;
+      margin-bottom: 4.500vw;
+    }
+  
+    .dc-depth14 .dc-dp14-img {
+      width: 100%;
+      float: left;
+      background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp14.png") left top no-repeat;
+      background-size: 90.000vw;
+      height: 36.250vw;
+      margin-top: 5.750vw;
+      position: relative;
+    }
+  
+    .dc-depth14 .dc-dp14-img p.dp14-intext01 {
+      position: absolute;
+      right: 11.250vw;
+      top: 15.000vw;
+      font-size: 2.890vw;
+      color: #fff;
+      text-align: center;
+      background-color: #b39abc;
+      text-align: center;
+      padding: 3.000vw 7.500vw;
+    }
+  
+    @media screen and (min-width: 768px) {
+      .dc-depth14 {
+        width: 768px;
+        margin: 0 auto;
+        padding: 16.536vw 5.078vw;
+        overflow: hidden;
+      }
+  
+      .dc-depth14 .dc-dp14-hdtext {
+        width: 100%;
+        float: left;
+        text-align: left;
+      }
+  
+      .dc-depth14 .dc-dp14-hdtext ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth14 .dc-dp14-hdtext ul li {
+        display: block;
+        color: #333333;
+        font-size: 3.125vw;
+        line-height: 140%;
+      }
+  
+      .dc-depth14 .dc-dp14-hdtext ul li.frlatxt {
+        font-size: 6.161vw;
+        font-weight: 700;
+        margin-bottom: 5.599vw;
+      }
+  
+      .dc-depth14 .dc-dp14-hdtext ul li.mdlatxt {
+        font-size: 36px;
+        color: #804d88;
+        font-weight: 500;
+        margin-bottom: 4.500vw;
+      }
+  
+      .dc-depth14 .dc-dp14-img {
+        width: 100%;
+        float: left;
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp14.png") left top no-repeat;
+        background-size: 90.104vw;
+        height: 36.328vw;
+        margin-top: 5.599vw;
+        position: relative;
+      }
+  
+      .dc-depth14 .dc-dp14-img p.dp14-intext01 {
+        position: absolute;
+        right: 7.552vw;
+        top: 14.583vw;
+        font-size: 2.865vw;
+        color: #fff;
+        text-align: center;
+        background-color: #b39abc;
+        text-align: center;
+        padding: 3.255vw 7.292vw;
+      }
+    }
+  
+    @media screen and (min-width: 900px) {
+      .dc-depth14 {
+        width: 900px;
+        margin: 0 auto;
+        padding: 150px 45px 100px 45px;
+        overflow: hidden;
+      }
+  
+      .dc-depth14 .dc-dp14-hdtext {
+        width: 100%;
+        float: left;
+        text-align: left;
+      }
+  
+      .dc-depth14 .dc-dp14-hdtext ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth14 .dc-dp14-hdtext ul li {
+        display: block;
+        color: #333333;
+        font-size: 28px;
+        line-height: 140%;
+      }
+  
+      .dc-depth14 .dc-dp14-hdtext ul li.frlatxt {
+        font-size: 64px;
+        font-weight: 700;
+        margin-bottom: 18px;
+      }
+  
+      .dc-depth14 .dc-dp14-hdtext ul li.mdlatxt {
+        font-size: 40px;
+        color: #804d88;
+        font-weight: 500;
+        margin-bottom: 22px;
+      }
+  
+      .dc-depth14 .dc-dp14-img {
+        width: 100%;
+        float: left;
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/img_dp14.png") left top no-repeat;
+        background-size: 810px;
+        height: 324px;
+        margin-top: 50px;
+        position: relative;
+      }
+  
+      .dc-depth14 .dc-dp14-img p.dp14-intext01 {
+        position: absolute;
+        right: 67px;
+        top: 132px;
+        font-size: 26px;
+        color: #fff;
+        text-align: center;
+        background-color: #b39abc;
+        text-align: center;
+        padding: 29px 65px;
+      }
+  
+    }
+  
+    /* 섹션 15 주의사항*/
+    .dc-depth15 {
+      width: 100%;
+      margin: 0 auto;
+      padding: 16.250vw 5% 10.000vw 5%;
+      overflow: hidden;
+      background-color: #ebeaec;
+    }
+  
+    .dc-depth15 .dc-dp15-hdtext {
+      width: 100%;
+      float: left;
+      font-size: 7.000vw;
+      color: #804d88;
+      font-weight: 700;
+      text-align: center;
+    }
+  
+    .dc-depth15 ul {
+      width: 100%;
+      float: left;
+      margin-top: 7.500vw;
+      text-align: left;
+    }
+  
+    .dc-depth15 ul li {
+      display: block;
+      background: #fff;
+      font-size: 2.750vw;
+      color: #333333;
+      height: 15.000vw;
+      padding: 3.250vw 3.500vw 3.250vw 17.000vw;
+      width: 100%;
+      line-height: 140%;
+      margin-bottom: 0.500vw;
+      letter-spacing: -0.2px;
+    }
+  
+    .dc-depth15 ul li.libg01 {
+      background: #fff url("https://publish-static.atomy.com/images/products/kr/004043/bg_dp15-01.png") left no-repeat;
+      background-position: 2.000vw 50%;
+      background-size: 11.750vw;
+    }
+  
+    .dc-depth15 ul li.libg02 {
+      background: #fff url("https://publish-static.atomy.com/images/products/kr/004043/bg_dp15-02.png") left no-repeat;
+      background-position: 2.000vw 50%;
+      background-size: 11.750vw;
+    }
+  
+    .dc-depth15 ul li.libg03 {
+      background: #fff url("https://publish-static.atomy.com/images/products/kr/004043/bg_dp15-03.png") left no-repeat;
+      background-position: 2.000vw 50%;
+      background-size: 11.750vw;
+    }
+  
+    .dc-depth15 ul li.libg04 {
+      background: #fff url("https://publish-static.atomy.com/images/products/kr/004043/bg_dp15-04.png") left no-repeat;
+      background-position: 2.000vw 50%;
+      background-size: 11.750vw;
+      padding-top: 5.000vw;
+    }
+  
+  
+    @media screen and (min-width: 768px) {
+      .dc-depth15 {
+        width: 768px;
+        margin: 0 auto;
+        padding: 16.927vw 5.078vw 10.286vw 5.078vw;
+        overflow: hidden;
+        background-color: #ebeaec;
+      }
+  
+      .dc-depth15 .dc-dp15-hdtext {
+        width: 100%;
+        float: left;
+        font-size: 6.161vw;
+        color: #804d88;
+        font-weight: 700;
+        text-align: center;
+      }
+  
+      .dc-depth15 ul {
+        width: 100%;
+        float: left;
+        margin-top: 7.552vw;
+        text-align: left;
+      }
+  
+      .dc-depth15 ul li {
+        display: block;
+        background: #fff;
+        font-size: 22px;
+        color: #333333;
+        padding: 3.516vw 3.255vw 0 16.927vw;
+        width: 100%;
+        line-height: 140%;
+        margin-bottom: 0.391vw;
+        height: 13.672vw;
+      }
+  
+      .dc-depth15 ul li.libg01 {
+        background: #fff url("https://publish-static.atomy.com/images/products/kr/004043/bg_dp15-01.png") left no-repeat;
+        background-position: 2.214vw 50%;
+      }
+  
+      .dc-depth15 ul li.libg02 {
+        background: #fff url("https://publish-static.atomy.com/images/products/kr/004043/bg_dp15-02.png") left no-repeat;
+        background-position: 2.214vw 50%;
+      }
+  
+      .dc-depth15 ul li.libg03 {
+        background: #fff url("https://publish-static.atomy.com/images/products/kr/004043/bg_dp15-03.png") left no-repeat;
+        background-position: 2.214vw 50%;
+      }
+  
+      .dc-depth15 ul li.libg04 {
+        background: #fff url("https://publish-static.atomy.com/images/products/kr/004043/bg_dp15-04.png") left no-repeat;
+        background-position: 2.214vw 50%;
+        padding-top: 5.208vw;
+      }
+    }
+  
+    @media screen and (min-width: 900px) {
+      .dc-depth15 {
+        width: 900px;
+        margin: 0 auto;
+        padding: 150px 45px;
+        overflow: hidden;
+        background-color: #ebeaec;
+      }
+  
+      .dc-depth15 .dc-dp15-hdtext {
+        width: 100%;
+        float: left;
+        font-size: 64px;
+        color: #804d88;
+        font-weight: 700;
+        text-align: center;
+      }
+  
+      .dc-depth15 ul {
+        width: 100%;
+        float: left;
+        margin-top: 70px;
+        text-align: left;
+      }
+  
+      .dc-depth15 ul li {
+        display: block;
+        background: #fff;
+        font-size: 26px;
+        color: #333333;
+        padding: 30px 35px 0 155px;
+        width: 100%;
+        line-height: 140%;
+        margin-bottom: 5px;
+        height: 128px;
+      }
+  
+      .dc-depth15 ul li.libg01 {
+        background: #fff url("https://publish-static.atomy.com/images/products/kr/004043/bg_dp15-01.png") left no-repeat;
+        background-position: 15px 50%;
+      }
+  
+      .dc-depth15 ul li.libg02 {
+        background: #fff url("https://publish-static.atomy.com/images/products/kr/004043/bg_dp15-02.png") left no-repeat;
+        background-position: 15px 50%;
+      }
+  
+      .dc-depth15 ul li.libg03 {
+        background: #fff url("https://publish-static.atomy.com/images/products/kr/004043/bg_dp15-03.png") left no-repeat;
+        background-position: 15px 50%;
+      }
+  
+      .dc-depth15 ul li.libg04 {
+        background: #fff url("https://publish-static.atomy.com/images/products/kr/004043/bg_dp15-04.png") left no-repeat;
+        background-position: 15px 50%;
+        padding-top: 40px;
+      }
+  
+    }
+  
+    /* 섹션 16 건강정보*/
+    .dc-depth16 {
+      width: 100%;
+      margin: 0 auto;
+      padding: 16.250vw 5%;
+      overflow: hidden;
+      letter-spacing: -0.5px;
+    }
+  
+    .dc-depth16 .dc-dp16-hdtext {
+      width: 100%;
+      float: left;
+    }
+  
+    .dc-depth16 .dc-dp16-hdtext ul {
+      width: 100%;
+      float: left;
+    }
+  
+    .dc-depth16 .dc-dp16-hdtext ul li {
+      display: block;
+      color: #202020;
+      font-size: 5.000vw;
+      text-align: center;
+    }
+  
+    .dc-depth16 .dc-dp16-hdtext ul li.frlatxt {
+      font-size: 7.000vw;
+      color: #804d88;
+      font-weight: 700;
+      margin-top: 7.000vw;
+    }
+  
+    .dc-depth16 .dc-dp16-hdtext ul li.mdlatxt {
+      margin-bottom: 4.250vw;
+      margin-top: 2.000vw;
+    }
+  
+    .dc-depth16 .dc-dp16-hdtext ul li.mdlatxt p {
+      display: inline-block;
+      font-size: 3.000vw;
+      color: #fff;
+      background: #b39abc;
+      font-weight: 400;
+      padding: 1.500vw 4.000vw;
+    }
+  
+    .dc-depth16 .dc-dp16-hdtext ul li.lastxt {
+      font-size: 3.000vw;
+      color: #333333;
+      font-weight: 400;
+      line-height: 140%;
+      margin-top: 2.000vw;
+    }
+  
+    .dc-depth16 .dc-dp16-tbl {
+      width: 100%;
+      float: left;
+      margin-top: 7.500vw;
+    }
+  
+    .dc-depth16 .dc-dp16-tbl p {
+      width: 100%;
+      float: left;
+      font-size: 3.250vw;
+      color: #804d88;
+      font-weight: 500;
+      text-align: left;
+    }
+  
+    .dc-depth16 .dc-dp16-tbl table {
+      width: 100%;
+      float: left;
+      border-top: 2px solid #804d87;
+      margin-top: 1.250vw;
+      border-bottom: 2px solid #804d87;
+    }
+  
+    .dc-depth16 .dc-dp16-tbl table th {
+      background-color: #dfd1e1;
+      color: #804d88;
+      border-bottom: 1px solid #af8fb4;
+      border-right: 1px solid #804d87;
+      padding: 1.750vw 0;
+      font-size: 1.000em;
+      vertical-align: middle;
+    }
+  
+    .dc-depth16 .dc-dp16-tbl table td {
+      background-color: #fff;
+      color: #804d88;
+      border-bottom: 1px solid #af8fb4;
+      color: #333333;
+      font-size: 1.000em;
+      padding: 1.750vw 2.250vw;
+      text-align: left;
+    }
+  
+    .dc-depth16 .dc-dp16-img01 {
+      width: 100%;
+      float: left;
+      background-color: #f4ebf9;
+      padding: 5.000vw 0;
+      margin-top: 3.500vw;
+    }
+  
+    .dc-depth16 .dc-dp16-img01 ul {
+      width: 100%;
+      float: left;
+    }
+  
+    .dc-depth16 .dc-dp16-img01 ul li {
+      display: block;
+      font-size: 3.000vw;
+      color: #333333;
+      padding-top: 5.500vw;
+      text-align: center;
+      line-height: 145%;
+    }
+  
+    .dc-depth16 .dc-dp16-img01 ul li.latext {
+      background: url("https://publish-static.atomy.com/images/products/kr/004043/bg_dp16title.png") center bottom no-repeat;
+      background-size: 41.750vw;
+      padding-bottom: 10.500vw;
+      font-size: 5.500vw;
+      color: #333333;
+      font-weight: 500;
+      padding-top: 0;
+    }
+  
+    .dc-depth16 .dc-dp16-img01 ul li.latext span {
+      color: #804d88;
+    }
+  
+    .dc-depth16 .dp16-fttxt {
+      width: 100%;
+      float: left;
+      text-align: right;
+      font-size: 2.000vw;
+      color: #666666;
+      margin-top: 1.500vw;
+    }
+  
+    .dc-depth16 .dc-dp16-img02 {
+      width: 100%;
+      float: left;
+      background: url("https://publish-static.atomy.com/images/products/kr/004043/bg_dp16.png") center top no-repeat;
+      background-size: 76.500vw;
+      margin-top: 4.750vw;
+      position: relative;
+      height: 40.000vw;
+    }
+  
+    .dc-depth16 .dc-dp16-img02 p {
+      color: #fff;
+      text-align: center;
+    }
+  
+    .dc-depth16 .dc-dp16-img02 p span {
+      font-size: 6.500vw;
+      font-weight: 700;
+    }
+  
+    .dc-depth16 .dc-dp16-img02 p.dp16-intext01 {
+      position: absolute;
+      left: 14.250vw;
+      top: 18.500vw;
+      font-size: 3.000vw;
+    }
+  
+    .dc-depth16 .dc-dp16-img02 p.dp16-intext02 {
+      position: absolute;
+      left: 33.500vw;
+      top: 4.7500vw;
+      font-size: 3.000vw;
+    }
+  
+    .dc-depth16 .dc-dp16-img02 p.dp16-intext03 {
+      position: absolute;
+      right: 14.000vw;
+      top: 18.500vw;
+      font-size: 3.000vw;
+    }
+  
+  
+    @media screen and (min-width: 768px) {
+      .dc-depth16 {
+        width: 768px;
+        margin: 0 auto;
+        padding: 16.927vw 5.078vw;
+        overflow: hidden;
+      }
+  
+      .dc-depth16 .dc-dp16-hdtext {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth16 .dc-dp16-hdtext ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth16 .dc-dp16-hdtext ul li {
+        display: block;
+        color: #202020;
+        font-size: 5.078vw;
+        text-align: center;
+      }
+  
+      .dc-depth16 .dc-dp16-hdtext ul li.frlatxt {
+        font-size: 6.161vw;
+        color: #804d88;
+        font-weight: 700;
+        margin-top: 7.031vw;
+      }
+  
+      .dc-depth16 .dc-dp16-hdtext ul li.mdlatxt {
+        margin-bottom: 4.427vw;
+        margin-top: 2.865vw;
+      }
+  
+      .dc-depth16 .dc-dp16-hdtext ul li.mdlatxt p {
+        display: inline-block;
+        font-size: 3.125vw;
+        color: #fff;
+        background: #b39abc;
+        font-weight: 400;
+        padding: 1.563vw 3.776vw;
+      }
+  
+      .dc-depth16 .dc-dp16-hdtext ul li.lastxt {
+        font-size: 3.125vw;
+        color: #333333;
+        font-weight: 400;
+        margin-top: 4.557vw;
+        line-height: 140%;
+      }
+  
+      .dc-depth16 .dc-dp16-tbl {
+        width: 100%;
+        float: left;
+        margin-top: 7.552vw;
+      }
+  
+      .dc-depth16 .dc-dp16-tbl p {
+        width: 100%;
+        float: left;
+        font-size: 3.255vw;
+        color: #804d88;
+        font-weight: 500;
+        text-align: left;
+      }
+  
+      .dc-depth16 .dc-dp16-tbl table {
+        width: 100%;
+        float: left;
+        border-top: 2px solid #804d87;
+        margin-top: 1.432vw;
+        border-bottom: 2px solid #804d87;
+      }
+  
+      .dc-depth16 .dc-dp16-tbl table th {
+        background-color: #dfd1e1;
+        color: #804d88;
+        border-bottom: 1px solid #af8fb4;
+        border-right: 1px solid #804d87;
+        padding: 2.083vw 0;
+        font-size: 22px;
+        vertical-align: middle;
+      }
+  
+      .dc-depth16 .dc-dp16-tbl table td {
+        background-color: #fff;
+        color: #804d88;
+        border-bottom: 1px solid #af8fb4;
+        color: #333333;
+        font-size: 22px;
+        padding: 2.083vw 2.344vw;
+        text-align: left;
+      }
+  
+      .dc-depth16 .dc-dp16-img01 {
+        width: 100%;
+        float: left;
+        background-color: #f4ebf9;
+        padding: 5.208vw 0;
+        margin-top: 3.646vw;
+      }
+  
+      .dc-depth16 .dc-dp16-img01 ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth16 .dc-dp16-img01 ul li {
+        display: block;
+        font-size: 3.125vw;
+        color: #333333;
+        padding-top: 5.208vw;
+        text-align: center;
+        line-height: 145%;
+      }
+  
+      .dc-depth16 .dc-dp16-img01 ul li.latext {
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/bg_dp16title.png") center bottom no-repeat;
+        padding-bottom: 10.156vw;
+        font-size: 5.599vw;
+        color: #333333;
+        font-weight: 500;
+        padding-top: 0;
+      }
+  
+      .dc-depth16 .dc-dp16-img01 ul li.latext span {
+        color: #804d88;
+      }
+  
+      .dc-depth16 .dp16-fttxt {
+        width: 100%;
+        float: left;
+        text-align: right;
+        font-size: 1.953vw;
+        color: #666666;
+        margin-top: 1.563vw;
+      }
+  
+      .dc-depth16 .dc-dp16-img02 {
+        width: 100%;
+        float: left;
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/bg_dp16.png") center top no-repeat;
+        background-size: 76.302vw;
+        margin-top: 4.818vw;
+        position: relative;
+        height: 39.974vw;
+      }
+  
+      .dc-depth16 .dc-dp16-img02 p {
+        color: #fff;
+        text-align: center;
+      }
+  
+      .dc-depth16 .dc-dp16-img02 p span {
+        font-size: 5.208vw;
+        font-weight: 700;
+      }
+  
+      .dc-depth16 .dc-dp16-img02 p.dp16-intext01 {
+        position: absolute;
+        left: 15.104vw;
+        top: 18.750vw;
+        font-size: 3.255vw;
+      }
+  
+      .dc-depth16 .dc-dp16-img02 p.dp16-intext02 {
+        position: absolute;
+        left: 33.464vw;
+        top: 5.339vw;
+        font-size: 3.255vw;
+      }
+  
+      .dc-depth16 .dc-dp16-img02 p.dp16-intext03 {
+        position: absolute;
+        right: 14.453vw;
+        top: 18.750vw;
+        font-size: 3.255vw;
+      }
+    }
+  
+  
+    @media screen and (min-width: 900px) {
+      .dc-depth16 {
+        width: 900px;
+        margin: 0 auto;
+        padding: 150px 45px 100px 45px;
+        overflow: hidden;
+      }
+  
+      .dc-depth16 .dc-dp16-hdtext {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth16 .dc-dp16-hdtext ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth16 .dc-dp16-hdtext ul li {
+        display: block;
+        color: #202020;
+        font-size: 46px;
+        text-align: center;
+      }
+  
+      .dc-depth16 .dc-dp16-hdtext ul li.frlatxt {
+        font-size: 64px;
+        color: #804d88;
+        font-weight: 700;
+        margin-top: 65px;
+      }
+  
+      .dc-depth16 .dc-dp16-hdtext ul li.mdlatxt {
+        margin-bottom: 40px;
+        margin-top: 18px;
+      }
+  
+      .dc-depth16 .dc-dp16-hdtext ul li.mdlatxt p {
+        display: inline-block;
+        font-size: 28px;
+        color: #fff;
+        background: #b39abc;
+        font-weight: 400;
+        padding: 14px 35px;
+      }
+  
+      .dc-depth16 .dc-dp16-hdtext ul li.lastxt {
+        font-size: 28px;
+        color: #333333;
+        font-weight: 400;
+        margin-top: 40px;
+        line-height: 140%;
+      }
+  
+      .dc-depth16 .dc-dp16-tbl {
+        width: 100%;
+        float: left;
+        margin-top: 70px;
+      }
+  
+      .dc-depth16 .dc-dp16-tbl p {
+        width: 100%;
+        float: left;
+        font-size: 30px;
+        color: #804d88;
+        font-weight: 500;
+        text-align: left;
+      }
+  
+      .dc-depth16 .dc-dp16-tbl table {
+        width: 100%;
+        float: left;
+        border-top: 2px solid #804d87;
+        margin-top: 13px;
+        border-bottom: 2px solid #804d87;
+      }
+  
+      .dc-depth16 .dc-dp16-tbl table th {
+        background-color: #dfd1e1;
+        color: #804d88;
+        border-bottom: 1px solid #af8fb4;
+        border-right: 1px solid #804d87;
+        padding: 19px 0;
+        font-size: 26px;
+        vertical-align: middle;
+      }
+  
+      .dc-depth16 .dc-dp16-tbl table td {
+        background-color: #fff;
+        color: #804d88;
+        border-bottom: 1px solid #af8fb4;
+        color: #333333;
+        font-size: 26px;
+        padding: 19px 22px;
+        text-align: left;
+      }
+  
+      .dc-depth16 .dc-dp16-img01 {
+        width: 100%;
+        float: left;
+        background-color: #f4ebf9;
+        padding: 50px 0;
+        margin-top: 32px;
+      }
+  
+      .dc-depth16 .dc-dp16-img01 ul {
+        width: 100%;
+        float: left;
+      }
+  
+      .dc-depth16 .dc-dp16-img01 ul li {
+        display: block;
+        font-size: 28px;
+        color: #333333;
+        padding-top: 40px;
+        text-align: center;
+        line-height: 145%;
+      }
+  
+      .dc-depth16 .dc-dp16-img01 ul li.latext {
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/bg_dp16title.png") center bottom no-repeat;
+        padding-bottom: 94px;
+        font-size: 50px;
+        color: #333333;
+        font-weight: 500;
+        padding-top: 0;
+      }
+  
+      .dc-depth16 .dc-dp16-img01 ul li.latext span {
+        color: #804d88;
+      }
+  
+      .dc-depth16 .dp16-fttxt {
+        width: 100%;
+        float: left;
+        text-align: right;
+        font-size: 16px;
+        color: #666666;
+        margin-top: 14px;
+      }
+  
+      .dc-depth16 .dc-dp16-img02 {
+        width: 100%;
+        float: left;
+        background: url("https://publish-static.atomy.com/images/products/kr/004043/bg_dp16.png") center top no-repeat;
+        margin-top: 90px;
+        position: relative;
+        height: 360px;
+      }
+  
+      .dc-depth16 .dc-dp16-img02 p {
+        color: #fff;
+        text-align: center;
+      }
+  
+      .dc-depth16 .dc-dp16-img02 p span {
+        font-size: 60px;
+        font-weight: 700;
+      }
+  
+      .dc-depth16 .dc-dp16-img02 p.dp16-intext01 {
+        position: absolute;
+        left: 128px;
+        top: 168px;
+        font-size: 30px;
+      }
+  
+      .dc-depth16 .dc-dp16-img02 p.dp16-intext02 {
+        position: absolute;
+        left: 295px;
+        top: 38px;
+        font-size: 30px;
+      }
+  
+      .dc-depth16 .dc-dp16-img02 p.dp16-intext03 {
+        position: absolute;
+        right: 128px;
+        top: 168px;
+        font-size: 30px;
+      }
+  
+    }
+  </style>
+  <div id="contentBuilderContents">
+    <div class="dc-Wrap">
+      <!-- 섹션 01 포스터 -->
+      <div class="dc-depth01">
+        <p class="depth01-logo"><img src="https://publish-static.atomy.com/images/products/kr/004043/logo02.png"
+            width="112" alt="애터미로고"></p>
+        <ul class="topTxt">
+          <li>하루 두 캡슐, 여성들의 편안한<br>그 날을 위한 작은 습관</li>
+          <li class="largeText">애터미 그날엔 보라지유</li>
+          <li class="slimText">ATOMY BORAGE OIL</li>
+        </ul>
+        <div class="footTxt">
+          <p><img src="https://publish-static.atomy.com/images/products/kr/004043/img_certilogo.png" alt="인증로고" /></p>
+          <ul>
+            <li><span>건강기능식품</span></li>
+            <li>감마리놀렌산 함유 유지, 비타민E<br>620 mg × 60 캡슐 (37.2 g)</li>
+          </ul>
+        </div>
+      </div>
+      <!-- 섹션 02 -->
+      <div class="dc-depth02">
+        <div class="dp2copybox">
+          <ul>
+            <li><span>생각만 해도 불편한 그 날,</span><br>아직도 그냥 참고 견디시나요?</li>
+            <li class="smallTxt">이제부터 <strong>애터미 그날엔 보라지유</strong>로<br><strong>편안한 ‘그 날’</strong>을 맞이하세요.</li>
+          </ul>
+        </div>
+        <div class="dp2txtbox">감마리놀렌산과 비타민 E 의 <strong> 5중 기능성</strong></div>
+        <div class="dp2txtbox02">
+          <ul>
+            <li class="dp2nametxt02">월경 전 변화에 의한 불편한 상태 개선 뿐만 아니라
+              면역 과민 반응에 의한 피부상태 개선, 콜레스테롤&혈행 개선,
+              그리고 비타민E 함유로 유해산소로부터 세포를 보호하는 등
+              여성들의 건강에 복합적인 도움을 줄 수 있습니다.</li>
+            <li class="dp2nametxt">여성들의 건강한 삶을 위한 한 걸음<br><span>애터미 그날엔 보라지유</span></li>
+          </ul>
+  
+        </div>
+      </div>
+      <!-- 섹션 03 특별함-->
+      <div class="dc-depth03">
+        <div class="dc-dp03title">
+          <ul>
+            <li><a>애터미 그날엔 보라지유의 <span class="cbk">특별함</span></a></li>
+            <li class="bdtxt">여성들의 건강을 위한 작은 습관</li>
+          </ul>
+        </div>
+        <div class="dc-dp03listbox">
+          <div class="dc-dp03list-inner dc-dp03list-inner-bg01">
+            <ul>
+              <li class="lgtxt">‘그날엔 보라지유’의 여성을 위한<br>5중 기능성 보라지종자유, 비타민E</li>
+            </ul>
+            <div class="In-unmlist">
+              <p class="intitle">보라지종자유</p>
+              <ol type="1" start="1">
+                <li><span>1.</span> 월경전 변화에 의한 불편한 상태 개선에 도움을 줄 수 있음</li>
+                <li><span>2.</span> 혈중 콜레스테롤 개선에 도움을 줄 수 있음</li>
+                <li><span>3.</span> 혈행 개선에 도움을 줄 수 있음</li>
+                <li><span>4.</span> 면역 과민 반응 피부 상태 개선에 도움을 줄 수 있음</li>
+              </ol>
+              <p class="intitle02">비타민 E</p>
+              <ol type="1" start="1">
+                <li><span>5.</span> 월경전 변화에 의한 불편한 상태 개선에 도움을 줄 수 있음</li>
+              </ol>
+            </div>
+          </div>
+          <div class="dc-dp03list-inner dc-dp03list-inner-bg02">
+            <ul>
+              <li class="lgtxt">청정 네덜란드산 보라지종자유</li>
+              <li>감마리놀렌산 240mg 함유</li>
+            </ul>
+          </div>
+          <div class="dc-dp03list-inner dc-dp03list-inner-bg03">
+            <ul>
+              <li class="lgtxt">원료부터 캡슐까지 식물성 원료 사용</li>
+              <li>목넘김이 간편한 620mg 캡슐</li>
+            </ul>
+          </div>
+          <div class="dc-dp03list-inner dc-dp03list-inner-bg04">
+            <ul>
+              <li class="lgtxt">개별 PTP 포장으로 안심 섭취와<br>편리한 휴대성까지</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- 섹션 04 제품정보-->
+      <div class="dc-depth04">
+        <div class="dc-dp04title">
+          <p><span class="latxt">하루 두 캡슐</span><br>여성들의 편안한 그 날을 위한 작은 습관</p>
+        </div>
+        <div class="pd-img"><img src="https://publish-static.atomy.com/images/products/kr/004043/img_pimg.png"></div>
+        <div class="pd-info-tbl">
+          <table>
+            <tr>
+              <th>제품명</th>
+              <td>애터미 그날엔 보라지유</td>
+            </tr>
+            <tr>
+              <th>식품의 유형</th>
+              <td>건강기능식품 </td>
+            </tr>
+            <tr>
+              <th>제품구성</th>
+              <td>620mg x 60 캡슐 (1일 2캡슐)</td>
+            </tr>
+            <tr>
+              <th>원재료명</th>
+              <td>감마리놀렌산 함유 유지[보라지오일 (네덜란드산)], D-α-
+                토코페롤, 라벤더오일, 쑥오일, 캐모마일오일, 아마씨유 <span class="bgtxt">대두함유</span><br>*캡슐기제 : 변성전분, 글리세린, 치자적색소, 치자청색소</td>
+            </tr>
+            <tr>
+              <th>섭취량 및 섭취방법</th>
+              <td>1일 1회, 1회 2캡슐을 물과 함께 섭취하십시오. </td>
+            </tr>
+            <tr>
+              <th>보관방법</th>
+              <td>
+                <ol>
+                  <li>연질캡슐 특성상 보관상태에 따라 외형 및 성상 변화가
+                    생길 우려가 있으니 반드시 고온 다습한 곳과
+                    직사광선을 피하여 실온에 보관하십시오.</li>
+                  <li>어린이의 손에 닿지 않는 곳에 보관하십시오.</li>
+                </ol>
+              </td>
+            </tr>
+            <tr>
+              <th>소비기한</th>
+              <td>제조일로부터 24개월</td>
+            </tr>
+          </table>
+        </div>
+        <div class="pd-nutrient-info">
+          <p class="nutitle">영양 성분</p>
+          <table>
+            <tr>
+              <th class="toptitle" colspan="3">1일 섭취량 : 2캡슐(1,240mg)</th>
+            </tr>
+            <tr>
+              <th width="33%">1일 섭취량 당</th>
+              <th width="33%">함량</th>
+              <th width="33%">%영양성분 기준치</th>
+            </tr>
+            <tr>
+              <td>열량</td>
+              <td>9 kcal</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>탄수화물</td>
+              <td>0 g</td>
+              <td>0 %</td>
+            </tr>
+            <tr>
+              <td>단백질</td>
+              <td>0 g</td>
+              <td>0 %</td>
+            </tr>
+            <tr>
+              <td>지방</td>
+              <td>1 g</td>
+              <td>0 %</td>
+            </tr>
+            <tr>
+              <td>나트륨</td>
+              <td>1 g</td>
+              <td>0 %</td>
+            </tr>
+            <tr>
+              <td>감마리놀렌산</td>
+              <td>240 mg</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>비타민E</td>
+              <td>11 mg</td>
+              <td>100 %</td>
+            </tr>
+          </table>
+          <p class="tbl-ft-text">※ %영양성분기준치 : 1일 영양성분 기준치에 대한 비율</p>
+        </div>
+      </div>
+      <!-- 섹션 05 보라지종자유info-->
+      <div class="dc-depth05">
+        <div class="dc-dp05-hdtext">
+          <ul>
+            <li class="frlatxt">보라지종자유</li>
+            <li class="mdlatxt">감마리놀렌산 함유량 최대 3배</li>
+            <li>지치과에 속하는 일년초 식물인 보라지꽃은 높이 약 40~100cm 까지<br>
+              자라는 식물로, 오메가 -6 지방산의 일종인 <strong>감마리놀렌산<br>
+                (GLA, γ-linolenic acid)</strong>을 풍부하게 함유하고 있습니다.</li>
+          </ul>
+        </div>
+        <div class="dc-dp05-infoImg">
+          <p class="if-in-text01"><span>달맞이꽃종자유 GLA</span><br>6~9% 이상</p>
+          <p class="if-in-text02">2~3배</p>
+          <p class="if-in-text03">달맞이꽃 종자유에 비해<br>
+            2~3배 더 많은 <strong>‘감마리놀렌산’</strong> 함유</p>
+          <p class="if-in-text04"><span>보라지종자유 GLA</span><br>20% 이상</p>
+          <p class="if-in-text05">* 블랙커런트 오일 보다도 2배 정도 높은 함유량</p>
+        </div>
+      </div>
+      <!-- 섹션 06 감마리놀렌산-->
+      <div class="dc-depth06">
+        <div class="dc-dp06-hdtext">
+          <ul>
+            <li class="frlatxt">‘감마리놀렌산’은 <br>어떻게 작용할까요?</li>
+            <li class="mdlatxt">감마리놀렌산 : 오메가6 불포화지방산의 일종</li>
+            <li>감마리놀렌산을 섭취하면 체내 호르몬인<br><strong>프로스타글라딘</strong>의 균형이 이루어져<br>
+              <strong>월경 전 불편한 상태 개선에 도움</strong>을 줄 수 있습니다.
+            </li>
+          </ul>
+        </div>
+        <div class="dc-dp06-infoImg">
+          <ul>
+            <li><strong>보라지유</strong> 섭취</li>
+            <li><strong>감마리놀렌산</strong> 증가</li>
+            <li><strong>프로스타글라딘</strong> 생성</li>
+            <li><strong>프로스타글라딘</strong> 체내균형</li>
+          </ul>
+        </div>
+        <div class="dc-dp06-ftTxt">* 원료 특성에 대한 정보입니다.</div>
+      </div>
+      <!-- 섹션 07 보라지종자유 4가지기능성-->
+      <div class="dc-depth07">
+        <div class="dc-dp07-hdtext">
+          <ul>
+            <li class="frlatxt">‘그날엔 보라지유’의<br> 여성을 위한 5중 기능성<br>
+              보라지종자유, 비타민E</li>
+            <li>월경 전 변화에 의한 불편한 상태 개선뿐만 아니라<br>
+              <strong>여성 건강에 복합적인 도움</strong>을 줄 수 있습니다.
+            </li>
+          </ul>
+        </div>
+        <div class="dc-dp07-infoImg">
+          <p class="dp07-infotitle">보라지종자유</p>
+          <ul>
+            <li class="lhg"><strong>월경 전 변화에 의한 불편한 상태<br>
+                개선</strong>에 도움을 줄 수 있음<br><span>* 성인, 청소년에 추천</span></li>
+            <li class="lhg">면역 과민반응에 의한 <strong>피부상태 개선에</strong><br>
+              도움을 줄 수 있음
+            </li>
+            <li><strong>혈행 개선</strong>에 도움을 줄 수 있음</li>
+            <li class="lhg"><strong>혈중 콜레스테롤 개선</strong>에<br>도움을 줄 수 있음</li>
+          </ul>
+        </div>
+        <div class="dc-dp07-infoImg02">
+          <p class="dp07-infotitle">비타민E</p>
+          <ul>
+            <li class="lhg"><strong>항산화 작용</strong>을 하여<br>
+              유해산소로부터<br>
+              세포를 보호하는데 필요</li>
+          </ul>
+        </div>
+      </div>
+      <!-- 섹션 08 시험결과 -->
+      <div class="dc-depth08">
+        <div class="dc-dp08-hdtext">
+          <ul>
+            <li class="frlatxt">기능성 원료 감마리놀렌산(GLA) 인체적용시험 결과</li>
+            <li>감마리놀렌산 함유 유지(GLA) 섭취 결과,<br>
+              PMS (월경 전 불편한 상태) 현상의 기간 및 현상이<br>유의적으로 감소하였음을
+              확인</li>
+          </ul>
+        </div>
+        <div class="dp08-tbl">
+          <table>
+            <tr>
+              <th>&nbsp;</th>
+              <th colspan="3">전체적인 현상</th>
+              <th colspan="3">불편감</th>
+            </tr>
+            <tr>
+              <th class="bgtd">&nbsp;</th>
+              <th class="bgtd" width="8%">n</th>
+              <th class="bgtd"><span class="sq-icon"><img
+                    src="https://publish-static.atomy.com/images/products/kr/004043/icon_ra.png"></span> 지속기간</th>
+              <th class="bgtd"><span class="sq-icon"><img
+                    src="https://publish-static.atomy.com/images/products/kr/004043/icon_ra.png"></span> 심각도</th>
+              <th class="bgtd" width="8%">n</th>
+              <th class="bgtd"><span class="sq-icon"><img
+                    src="https://publish-static.atomy.com/images/products/kr/004043/icon_ra.png"></span> 지속기간</th>
+              <th class="bgtd"><span class="sq-icon"><img
+                    src="https://publish-static.atomy.com/images/products/kr/004043/icon_ra.png"></span> 심각도</th>
+            </tr>
+            <tr>
+              <td><strong>GLA 섭취군<br>(감마리놀렌산)</strong></td>
+              <td>14</td>
+              <td>-1.4±1.6*</td>
+              <td>-1.5±1.3</td>
+              <td>6</td>
+              <td>-2.5±3.9*</td>
+              <td>-3.3±5.3*</td>
+            </tr>
+            <tr>
+              <td><strong>대조군</strong></td>
+              <td>14</td>
+              <td>-0.1±1.7</td>
+              <td>-0.1±2.4</td>
+              <td>11</td>
+              <td>1.7±2.4</td>
+              <td>2.6±5.1</td>
+            </tr>
+          </table>
+          <ul>
+            <li><span>ㆍ</span>출 처 : S. Watanabe et al., J. Oleo Sci., Vol. 54, No. 4, 217-224 (2005)</li>
+            <li><span>ㆍ</span>시험대상 : 월경 전 불편감을 느끼는 여성 28명</li>
+            <li><span>ㆍ</span>시험방법 : 감미리놀렌산 180mg 매일 섭취</li>
+            <li><span>ㆍ</span>섭취기간 : 황체기 12.8 ± 2일</li>
+          </ul>
+        </div>
+        <div class="dp08-fttxt">* 인체적용시험 결과가 모든 사람에게 동일하게 적용되는 것은 아님</div>
+        <div class="dc-dp08-hdtext">
+          <ul>
+            <li class="mdlatxt02">면역 과민 반응에 의한 피부상태 개선에 도움</li>
+            <li>감마리놀렌산 함유 유지(GLA) 섭취 결과,<br>민감성 피부 심화정도 지수 개선 확인</li>
+          </ul>
+        </div>
+        <div class="dp08-graph">
+          <div class="dp08-gh-title">민감성 피부 심화정도(SCORAD 지수) 개선</div>
+          <div class="dp08-gh-img">
+            <p class="ghtext01">섭취전</p>
+            <p class="ghtext02">4주</p>
+            <p class="ghtext03">2주</p>
+          </div>
+          <ul>
+            <li><strong>[대 상 자]</strong> 면역 과민 반응으로 인한 불편한 피부상태를 겪는 3~58세 21명 대상</li>
+            <li><strong>[시험기간]</strong> 12주</li>
+            <li> * Advances in Therapy, 2014, 31:180, 180-188</li>
+          </ul>
+        </div>
+        <div class="dp08-fttxt">* 인체적용시험 결과가 모든 사람에게 동일하게 적용되는 것은 아님 </div>
+      </div>
+  
+      <!-- 섹션 09 혈중콜레스테롤 개선 -->
+      <div class="dc-depth09">
+        <div class="dc-dp09-hdtext">
+          <ul>
+            <li class="frlatxt">혈중 콜레스테롤 개선</li>
+          </ul>
+        </div>
+        <div class="dc-dp09-img">
+          <ul>
+            <li class="dp09-01"><span>HDL</span><br>좋은 콜레스테롤</li>
+            <li class="dp09-02"><span>LDL</span><br>나쁜 콜레스테롤</li>
+          </ul>
+  
+        </div>
+      </div>
+      <!-- 섹션 10 섭취량 -->
+      <div class="dc-depth10">
+        <div class="dc-dp10-hdtext">
+          <ul>
+            <li class="frlatxt">청정 네덜란드산 보라지종자유로
+              감마리놀렌산 1일 섭취량
+              100% 충족</li>
+            <li>1일 2캡슐로 <strong>식약처 1일 섭취량인 감마리놀렌산 240mg을<br>
+                100% 충족</strong>해 섭취할 수 있습니다.</li>
+          </ul>
+        </div>
+        <div class="dc-dp10-img">
+          <p class="dp-intxt01">청정 네덜란드산<br>감마리놀렌산 원료</p>
+          <p class="dp-intxt02">1일 2캡슐</p>
+          <p class="dp-intxt03">감마리놀렌산<br>240mg</p>
+          <p class="dp-intxt04"><span>100%</span><br>충족</p>
+          <p class="dp-intxt05">식약처 1일<br>섭취량</p>
+        </div>
+      </div>
+  
+      <!-- 섹션 11 저온압착방식 -->
+      <div class="dc-depth11">
+        <div class="dc-dp11-hdtext">
+          <ul>
+            <li class="frlatxt">저온압착방식을 통한<br>
+              기능성분 손실 최소화</li>
+            <li>30~40℃ 저온에서 추출하는 <strong>콜드프레스 공법</strong>을 통해<br>
+              <strong>기능 성분 손실을 최소화</strong>하였습니다.
+            </li>
+          </ul>
+        </div>
+        <div class="dc-dp11-progress">
+          <p class="pgtext01">보라지꽃<br>종자 분리</p>
+          <p class="pgtext02">씨앗 압착</p>
+          <p class="pgtext03">유지 추출</p>
+          <p class="pgtext04">불순물 제거</p>
+          <p class="pgtext05">제품의 균질화</p>
+          <p class="pgtext06">보라지유</p>
+          <p class="pgtext07">핵산 추출<br><span>NO</span></p>
+        </div>
+      </div>
+  
+      <!-- 섹션 12 부원료 -->
+      <div class="dc-depth12">
+        <div class="dc-dp12-hdtext">
+          <ul>
+            <li class="frlatxt">애터미만의 엄선된 부원료 함유</li>
+          </ul>
+        </div>
+        <div class="dc-dp12-img">
+          <ul>
+            <li><img src="https://publish-static.atomy.com/images/products/kr/004043/img_dp12-01.png"><br>쑥 추출물</li>
+            <li><img src="https://publish-static.atomy.com/images/products/kr/004043/img_dp12-02.png"><br>아마씨유</li>
+            <li><img src="https://publish-static.atomy.com/images/products/kr/004043/img_dp12-03.png"><br>라벤더 오일</li>
+            <li><img src="https://publish-static.atomy.com/images/products/kr/004043/img_dp12-04.png"><br>캐모마일 오일</li>
+          </ul>
+  
+        </div>
+      </div>
+      <!-- 섹션 13  v-라벨인증 -->
+      <div class="dc-depth13">
+        <div class="dc-dp13-hdtext">
+          <ul>
+            <li class="frlatxt">원료부터 캡슐까지<br>식물성 원료 사용</li>
+            <li><strong>원료는 물론이고 캡슐 또한 식물성 원료</strong>로 만들어<br>
+              누구든지 부담 없이 섭취할 수 있습니다.</li>
+          </ul>
+        </div>
+        <div class="dc-dp13-img">
+          <p class="dp13-intext01">V-라벨<br>비건 획득</p>
+          <ul>
+            <li class="lititle"><strong>V-Label 비건 인증</strong>이란?</li>
+            <li class="listtype">브이라벨(V-Label)의 비건 인증은 1970년 이탈리아 채식
+              주의협회에 의해 개발된 비건 인증마크로 인지도는 물론
+              국제적인 공신력을 인정받고 있는 인증</li>
+            <li class="listtype">유전자 변형 식품(GMO) 또는 동물성 원료나 동물 유래 성분을 활용하지 않은 제품에만 부여하는 믿을 수 있는 인증</li>
+          </ul>
+        </div>
+      </div>
+      <!-- 섹션 14 ptp포장 -->
+      <div class="dc-depth14">
+        <div class="dc-dp14-hdtext">
+          <ul>
+            <li class="frlatxt">개별 PTP 포장으로 <br>안심 섭취와 편리한 휴대성까지</li>
+            <li><strong>개별 PTP 포장</strong>으로 외부 공기 및 습기 차단을 통한 높은 안정성과<br>
+              언제 어디서나 간편하게 하루 2캡슐 섭취 가능합니다. </li>
+          </ul>
+        </div>
+        <div class="dc-dp14-img">
+          <p class="dp14-intext01">소형 캡슐로 만들어<br>목 넘김이 편안합니다.</p>
+        </div>
+      </div>
+      <!-- 섹션 15 주의사항 -->
+      <div class="dc-depth15">
+        <div class="dc-dp15-hdtext">주의사항</div>
+        <ul>
+          <li class="libg01">특이체질, 알레르기 체질의 경우에는 간혹 개인에 따라
+            과민반응을 나타낼 수 있으므로 원료를 확인한 후 섭취하십시오.</li>
+          <li class="libg02">유·어린이는 섭취 전 전문가와 상담한 후 섭취하십시오.<br>
+            이상사례 발생 시 섭취를 중단하고 전문가와 상담하십시오.</li>
+          <li class="libg03">약간의 색상변화가 있을 수 있으나,<br>
+            품질에는 이상이 없으니 안심하고 섭취하십시오.</li>
+          <li class="libg04">소비기한이 경과된 제품은 섭취하지 마십시오.</li>
+        </ul>
+      </div>
+      <!-- 섹션 16 건강정보 -->
+      <div class="dc-depth16">
+        <div class="dc-dp16-hdtext">
+          <ul>
+            <li>건강정보</li>
+            <li class="frlatxt">월경 전 증후군(PMS)란?</li>
+            <li class="mdlatxt">
+              <p>Premenstrual Syndrome</p>
+            </li>
+            <li class="lastxt">월경 전 나타나는 신체의 변화로 인한 다양한 증상의 집합체로<br>
+              보통 월경 7일에서 10일 전에 나타나서 월경과 함께 증상이 소실된 후<br>
+              반복되어 나타납니다.
+            </li>
+          </ul>
+        </div>
+        <div class="dc-dp16-tbl">
+          <p>* 월경전증후군의 대표적 증상</p>
+          <table>
+            <tr>
+              <th width="20%">신체증상</th>
+              <td>유방 압통, 복부 팽만감, 두통, 사지부종, 요통, 체중 증가</td>
+            </tr>
+            <tr>
+              <th width="20%">행동증상</th>
+              <td>피로, 수면장애, 성욕 변화, 식탐, 흥미 저하, 사회적 위축,
+                집중력 저하</td>
+            </tr>
+            <tr>
+              <th width="20%">정서증상</th>
+              <td>짜증, 화, 신경과민, 우울감, 불안, 기분 기복, 감정조절 어려움,
+                대인관계 불화, 거절에 민감</td>
+            </tr>
+          </table>
+        </div>
+        <div class="dc-dp16-img01">
+          <ul>
+            <li class="latext">가임기 여성의 <span>약 79%</span>가 PMS를 경험</li>
+            <li>월경전 증후군(PMS)은 가임기 여성의 10명 중 8명 (79%)가<br>
+              경험하고 일상생활에 영향을 받고 있지만<br>
+              전문적인 치료나 관리에 소홀하다고 합니다.</li>
+          </ul>
+        </div>
+        <div class="dp16-fttxt">* 출처 : 국민건강보험공단</div>
+        <div class="dc-dp16-img02">
+          <p class="dp16-intext01"><span>5.7배</span><br>직장 결근<br>가능성</p>
+          <p class="dp16-intext02"><span>6.4배</span><br>일상 생활에 지장을<br>미치는 가능성</p>
+          <p class="dp16-intext03"><span>5.8배</span><br>업무 생산성<br>저하</p>
+        </div>
+        <div class="dp16-fttxt">*출처 : PMS 증상 및 대처에 관한 온라인 설문조사</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
