@@ -1,0 +1,249 @@
+body {
+  overflow-x: hidden;
+}
+.scroll-area {
+  background-color: #000;
+  height: 7000px;
+  position: relative;
+}
+
+.star {
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.space {
+  height: 500px;
+}
+
+.fullpage-image {
+  height: 100vh;
+  /* 뷰포트 높이만큼의 전체 높이 설정 */
+  overflow: hidden;
+  position: relative;
+}
+
+.fullpage-image img {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+.fade-in-title {
+  opacity: 0.5; /* 초기 투명도 설정 */
+  transition: opacity 0.3s ease-in-out; /* 부드러운 투명도 변화를 위한 트랜지션 */
+  color: #fff;
+  text-align: left;
+  width: 75%;
+  margin: 0 auto;
+}
+.fade-in-title h2 {
+  font-size: 60px;
+}
+.fade-in-title p {
+  font-size: 30px;
+  color: rgb(134,134,139);
+}
+.scroll-container { white-space: nowrap; font-size: 0; }
+.panel { display: inline-block; width: 100vw; height: 100vh; }
+.accordion-header, 
+.accordion-button,
+.accordion-body { 
+  min-height: 250px;      
+}
+
+section {
+  position: relative;
+  height: 100vh;
+}
+
+.all-access-pass__container {
+  z-index: 100;
+  position: fixed;
+  bottom: 100px;
+  left: 50%;
+}
+.all-access-pass__background {
+  position: absolute; /* 또는 relative, 부모 요소에 따라 다름 */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); /* 중앙 정렬 */
+  width: 0;
+  height: 0;
+  background: rgb(66 66 69/90%);
+  border-radius: 32px; /* 원 모양 */
+  transition: all 0.5s ease-out; /* 부드러운 전환 효과 */
+  box-shadow: inset 0 0 1px rgb(232 232 237/11%);
+  backdrop-filter: blur(7px);
+  animation: expandAndStretch2 1s forwards;
+  z-index: 20;
+
+  .all-access-pass__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 20px;
+    padding-left: 20px;
+
+    span {
+      white-space: nowrap;
+      opacity: 0;
+      animation: fadeOut 1s forwards;
+
+      > a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+
+    button {
+      background: none;
+      color: #fff;
+      border: none;
+      padding: 0;
+      margin: 0;
+      font-size: 40px;
+      cursor: pointer;
+      text-align: center;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      white-space: nowrap;
+      opacity: 0;
+      animation: fadeOut 1s forwards;
+      width: 36px;
+      height: 36px;
+      position: relative;
+
+      span {
+        background-color: #0071e3;
+        width: 100%;
+        height: 100%;
+        display: block;
+        border-radius: 50%;
+
+        svg {
+          height: 100%;
+          width: 100%;
+          left: 50%;
+          opacity: .8;
+          position: absolute;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          fill: #fff;
+        }
+      }
+    }
+
+  }
+
+  &.inactive {
+    animation: expandAndStretch 1s forwards;
+
+    .all-access-pass__item {
+      button,
+      span {
+        animation: fadeIn 1s forwards;
+      }
+    }
+  }
+}
+
+.all-access-pass__background2 {
+  position: absolute; /* 또는 relative, 부모 요소에 따라 다름 */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); /* 중앙 정렬 */
+  width: 0;
+  height: 0;
+  background: #0071e3;
+  border-radius: 50%;
+  z-index: 10;
+
+  &.inactive {
+    animation: expandAndStretch2-1 .75s forwards;
+  }
+  
+}
+
+
+/* 애니메이션 키 프레임 정의 */
+@keyframes expandAndStretch {
+  0% {
+    width: 0;
+    height: 0;
+  }
+  50% {
+    width: 56px;
+    height: 56px;
+  }
+  100% {
+    width: 250px;
+    height: 56px;
+  }
+}
+
+@keyframes expandAndStretch2 {
+  0% {
+    width: 250px;
+    height: 56px;
+  }
+  50% {
+    width: 56px;
+    height: 56px;
+  }
+  100% {
+    width: 0;
+    height: 0;
+  }
+}
+
+@keyframes expandAndStretch2-1 {
+  0% {
+    width: 0;
+    height: 0;
+  }
+  50% {
+    width: 90px;
+    height: 90px;
+  }
+  100% {
+    width: 0;
+    height: 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
